@@ -4,7 +4,13 @@
 
 Select one palette visually and replace `__color1__`–`__color5__` in a multiline prompt. Categories navigate within one continuous, scrollable list. Categories, palettes, and their 2–5 colors are loaded from `web/palettes.json`.
 
-## Installation and use
+<img width="843" height="603" alt="image" src="https://github.com/user-attachments/assets/7de742a3-4e74-4bf6-92d1-5135ed3c642f" />
+
+## Installation
+```
+cd ComfyUI/custom_nodes
+git clone https://github.com/palealloy2999-prog/ComfyUI-Color-Prompt-Palette
+```
 
 Place this directory in `ComfyUI/custom_nodes`, restart ComfyUI, and refresh the browser. Requires a ComfyUI version providing `comfy_api.latest` and DOM widgets; no additional dependencies or online services are needed.
 

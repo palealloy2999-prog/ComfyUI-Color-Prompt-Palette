@@ -4,9 +4,16 @@
 
 パレットを1つ選択し、複数行プロンプトの `__color1__`〜`__color5__` を色名に置換します。カテゴリボタンは全カテゴリを連続表示する一覧内のスクロールナビゲーションです。カテゴリ、パレット、各2〜5色の配色は `web/palettes.json` から読み込みます。
 
-## 導入・使い方
 
-このフォルダーを `ComfyUI/custom_nodes` に配置し、ComfyUIを再起動してブラウザを更新してください。`comfy_api.latest` とDOM Widgetに対応するComfyUIが必要です。追加依存や外部サービスは不要です。
+<img width="843" height="603" alt="image" src="https://github.com/user-attachments/assets/7de742a3-4e74-4bf6-92d1-5135ed3c642f" />
+
+## Installation
+```
+cd ComfyUI/custom_nodes
+git clone https://github.com/palealloy2999-prog/ComfyUI-Color-Prompt-Palette
+```
+
+## 導入・使い方
 
 **PALEALLOY / Prompt → Color Prompt Palette** を追加し、`template_text` ピンに外部STRINGを接続して、パレットをクリックします。ノード内にプロンプト入力欄・置換結果プレビュー欄はありません。ノードはリサイズできます。色・画像・themeだけを使う場合は `template_text` を未接続にでき、その場合の `replaced_text` は空文字です。
 
