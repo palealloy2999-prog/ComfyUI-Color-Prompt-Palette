@@ -1,0 +1,7365 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "mood",
+      "name": "Mood",
+      "name_ja": "雰囲気",
+      "order": 10
+    },
+    {
+      "id": "hue",
+      "name": "Hue",
+      "name_ja": "色系統",
+      "order": 20
+    },
+    {
+      "id": "tone",
+      "name": "Tone",
+      "name_ja": "色調",
+      "order": 30
+    },
+    {
+      "id": "theme",
+      "name": "Theme",
+      "name_ja": "テーマ",
+      "order": 40
+    },
+    {
+      "id": "season_time",
+      "name": "Season & Time",
+      "name_ja": "季節・時間帯",
+      "order": 50
+    },
+    {
+      "id": "event",
+      "name": "Events & Holidays",
+      "name_ja": "行事・イベント",
+      "order": 60
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion & Style",
+      "name_ja": "ファッション",
+      "order": 70
+    }
+  ],
+  "palettes": [
+    {
+      "id": "soft_watercolor",
+      "category": "mood",
+      "name": "Soft Watercolor",
+      "name_ja": "淡い水彩",
+      "description_ja": "淡く柔らかな色の組み合わせ（仮データ）",
+      "tags": [
+        "pastel",
+        "soft",
+        "calm"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#E8D4DA",
+          "prompt": "dusty pink"
+        },
+        {
+          "hex": "#B9C8E0",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#BDD0C3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F0DDBF",
+          "prompt": "pale apricot"
+        },
+        {
+          "hex": "#F8F1E7",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "fresh_morning",
+      "category": "mood",
+      "name": "Fresh Morning",
+      "name_ja": "爽やかな朝",
+      "description_ja": "清潔感のある空気と朝の柔らかな日差しを感じさせる青緑系。",
+      "tags": [
+        "fresh",
+        "airy",
+        "bright"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#E5F3F3",
+          "prompt": "pale aqua"
+        },
+        {
+          "hex": "#88C8D2",
+          "prompt": "soft turquoise"
+        },
+        {
+          "hex": "#6A9D86",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F9E6B0",
+          "prompt": "butter yellow"
+        }
+      ]
+    },
+    {
+      "id": "cozy_evening",
+      "category": "mood",
+      "name": "Cozy Evening",
+      "name_ja": "暖かな団らん",
+      "description_ja": "灯りに照らされた室内を思わせる暖色と落ち着いた暗色。",
+      "tags": [
+        "cozy",
+        "warm",
+        "calm"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#392D3A",
+          "prompt": "dark plum"
+        },
+        {
+          "hex": "#8F5949",
+          "prompt": "terracotta brown"
+        },
+        {
+          "hex": "#C98954",
+          "prompt": "warm copper"
+        },
+        {
+          "hex": "#E5BC82",
+          "prompt": "honey beige"
+        },
+        {
+          "hex": "#F3E3CF",
+          "prompt": "cream"
+        }
+      ]
+    },
+    {
+      "id": "melancholic_rain",
+      "category": "mood",
+      "name": "Melancholic Rain",
+      "name_ja": "物憂げな雨",
+      "description_ja": "雨空のような低彩度の青と灰色による静かな配色。",
+      "tags": [
+        "melancholic",
+        "rainy",
+        "muted"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#24364D",
+          "prompt": "slate navy blue"
+        },
+        {
+          "hex": "#8094A0",
+          "prompt": "dusty steel blue"
+        },
+        {
+          "hex": "#D3D2CD",
+          "prompt": "cloudy gray"
+        }
+      ]
+    },
+    {
+      "id": "eerie_silence",
+      "category": "mood",
+      "name": "Eerie Silence",
+      "name_ja": "不気味な静寂",
+      "description_ja": "暗い青緑と骨色で静かな不安感を作る。",
+      "tags": [
+        "horror",
+        "eerie",
+        "dark"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#0D1919",
+          "prompt": "near-black teal"
+        },
+        {
+          "hex": "#294A48",
+          "prompt": "deep desaturated teal"
+        },
+        {
+          "hex": "#78988A",
+          "prompt": "faded sage green"
+        },
+        {
+          "hex": "#D3D0BC",
+          "prompt": "bone ivory"
+        }
+      ]
+    },
+    {
+      "id": "playful_pop",
+      "category": "mood",
+      "name": "Playful Pop",
+      "name_ja": "陽気なポップ",
+      "description_ja": "ビビッドな多色をクリーム色でまとめた軽快な配色。",
+      "tags": [
+        "playful",
+        "cheerful",
+        "colorful"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#E95079",
+          "prompt": "bright pink"
+        },
+        {
+          "hex": "#F7C86A",
+          "prompt": "sunny yellow"
+        },
+        {
+          "hex": "#5DC3BD",
+          "prompt": "bright turquoise"
+        },
+        {
+          "hex": "#9074C8",
+          "prompt": "soft violet"
+        },
+        {
+          "hex": "#FFF0D6",
+          "prompt": "vanilla cream"
+        }
+      ]
+    },
+    {
+      "id": "romantic_dream",
+      "category": "mood",
+      "name": "Romantic Dream",
+      "name_ja": "夢見心地",
+      "description_ja": "ラベンダーとピンクを中心にした甘く静かな配色。",
+      "tags": [
+        "romantic",
+        "dreamy",
+        "soft"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#5E4771",
+          "prompt": "smoky plum"
+        },
+        {
+          "hex": "#BA8FAB",
+          "prompt": "dusty mauve"
+        },
+        {
+          "hex": "#EBC1C6",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#FFF0DD",
+          "prompt": "warm cream"
+        }
+      ]
+    },
+    {
+      "id": "heroic_triumph",
+      "category": "mood",
+      "name": "Heroic Triumph",
+      "name_ja": "英雄的な高揚",
+      "description_ja": "濃紺と深紅に金を差した力強い儀礼的な配色。",
+      "tags": [
+        "heroic",
+        "dramatic",
+        "bold"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#17233C",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#8E253B",
+          "prompt": "dark crimson"
+        },
+        {
+          "hex": "#D7AC62",
+          "prompt": "rich gold"
+        }
+      ]
+    },
+    {
+      "id": "sweet_candy",
+      "category": "mood",
+      "name": "Sweet Candy",
+      "name_ja": "スイートキャンディー",
+      "description_ja": "「スイートキャンディー」をイメージし、バブルガムピンクとレモンイエローを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "pop",
+        "candy",
+        "pastel"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "cotton_candy",
+      "category": "mood",
+      "name": "Cotton Candy Clouds",
+      "name_ja": "わたあめ雲",
+      "description_ja": "「わたあめ雲」をイメージし、ベビーピンクとパウダーブルーを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "soft",
+        "pastel",
+        "dreamy"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "strawberry_milk",
+      "category": "mood",
+      "name": "Strawberry Milk",
+      "name_ja": "いちごミルク",
+      "description_ja": "「いちごミルク」をイメージし、いちごミルク色とベビーピンクを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "pink",
+        "sweet",
+        "soft"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#583A38",
+          "prompt": "chocolate brown"
+        }
+      ]
+    },
+    {
+      "id": "rainbow_gummies",
+      "category": "mood",
+      "name": "Rainbow Gummies",
+      "name_ja": "レインボーグミ",
+      "description_ja": "「レインボーグミ」をイメージし、フラミンゴピンクとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "candy",
+        "playful",
+        "vibrant"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#F86A9D",
+          "prompt": "flamingo pink"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#BDE65B",
+          "prompt": "lime green"
+        }
+      ]
+    },
+    {
+      "id": "marshmallow_pastel",
+      "category": "mood",
+      "name": "Marshmallow Pastels",
+      "name_ja": "マシュマロパステル",
+      "description_ja": "「マシュマロパステル」をイメージし、ベビーピンクとパステルミントを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "pastel",
+        "soft",
+        "cream"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FCEB9B",
+          "prompt": "banana yellow"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "peach_soda",
+      "category": "mood",
+      "name": "Peach Soda",
+      "name_ja": "ピーチソーダ",
+      "description_ja": "「ピーチソーダ」をイメージし、ソフトピーチとくすんだコーラルを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "cute",
+        "summer",
+        "fresh"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#F3B99E",
+          "prompt": "soft peach pink"
+        },
+        {
+          "hex": "#E9877D",
+          "prompt": "muted coral pink"
+        },
+        {
+          "hex": "#95E4F0",
+          "prompt": "pastel turquoise blue"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        }
+      ]
+    },
+    {
+      "id": "lemonade_fizz",
+      "category": "mood",
+      "name": "Lemonade Fizz",
+      "name_ja": "弾けるレモネード",
+      "description_ja": "「弾けるレモネード」をイメージし、レモンイエローとスカイブルーを基調にした鮮やかな配色。",
+      "tags": [
+        "fresh",
+        "pop",
+        "citrus",
+        "yellow"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "kawaii_princess",
+      "category": "mood",
+      "name": "Kawaii Princess",
+      "name_ja": "かわいいお姫様",
+      "description_ja": "「かわいいお姫様」をイメージし、ベビーピンクと柔らかなライラックを基調にした調和した配色。",
+      "tags": [
+        "cute",
+        "romantic",
+        "princess",
+        "pink"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "pastel_yumekawaii",
+      "category": "mood",
+      "name": "Yume Kawaii",
+      "name_ja": "ゆめかわファンタジー",
+      "description_ja": "「ゆめかわファンタジー」をイメージし、淡いラベンダーとキャンディーピンクを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "pastel",
+        "fantasy",
+        "dreamy"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FA75BD",
+          "prompt": "candy pink"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "retro_toybox",
+      "category": "mood",
+      "name": "Retro Toybox",
+      "name_ja": "レトロなおもちゃ箱",
+      "description_ja": "「レトロなおもちゃ箱」をイメージし、スカーレットとバターイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "retro",
+        "nostalgia",
+        "playful"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#F6DF8C",
+          "prompt": "butter yellow"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#9ADACF",
+          "prompt": "seafoam green"
+        }
+      ]
+    },
+    {
+      "id": "magical_girl",
+      "category": "mood",
+      "name": "Magical Girl Sparkle",
+      "name_ja": "魔法少女のきらめき",
+      "description_ja": "「魔法少女のきらめき」をイメージし、バブルガムピンクと明るいバイオレットを基調にした調和した配色。",
+      "tags": [
+        "cute",
+        "fantasy",
+        "magical",
+        "pink"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "unicorn_party",
+      "category": "mood",
+      "name": "Unicorn Party",
+      "name_ja": "ユニコーンパーティー",
+      "description_ja": "「ユニコーンパーティー」をイメージし、柔らかなライラックとベビーピンクを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "fantasy",
+        "rainbow",
+        "pastel"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#9ADACF",
+          "prompt": "seafoam green"
+        },
+        {
+          "hex": "#FFF5C7",
+          "prompt": "lemon cream"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        }
+      ]
+    },
+    {
+      "id": "mermaid_dream",
+      "category": "mood",
+      "name": "Mermaid Dream",
+      "name_ja": "人魚の夢",
+      "description_ja": "「人魚の夢」をイメージし、ディープティールとアクアブルーを基調にした調和した配色。",
+      "tags": [
+        "cute",
+        "fantasy",
+        "sea",
+        "iridescent"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#1D7480",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#68CCD3",
+          "prompt": "aqua blue"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "bubble_tea",
+      "category": "mood",
+      "name": "Bubble Tea Time",
+      "name_ja": "タピオカティー",
+      "description_ja": "「タピオカティー」をイメージし、ミルクティーベージュとチョコレートブラウンを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "food",
+        "cafe",
+        "soft"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#B89D81",
+          "prompt": "milk tea beige"
+        },
+        {
+          "hex": "#583A38",
+          "prompt": "chocolate brown"
+        },
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "candy_shop",
+      "category": "mood",
+      "name": "Candy Shop Window",
+      "name_ja": "キャンディーショップ",
+      "description_ja": "「キャンディーショップ」をイメージし、蛍光フューシャとタンジェリンオレンジを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "candy",
+        "bright",
+        "fun"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#68CCD3",
+          "prompt": "aqua blue"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "playful_confetti",
+      "category": "mood",
+      "name": "Playful Confetti",
+      "name_ja": "紙吹雪のポップ",
+      "description_ja": "「紙吹雪のポップ」をイメージし、スカーレットとエレクトリックシアンを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "fun",
+        "bright",
+        "festival"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#FCEB9B",
+          "prompt": "banana yellow"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        }
+      ]
+    },
+    {
+      "id": "crayon_play",
+      "category": "mood",
+      "name": "Crayon Playground",
+      "name_ja": "クレヨンのお絵描き",
+      "description_ja": "「クレヨンのお絵描き」をイメージし、鮮やかな赤とスカイブルーを基調にした鮮やかな配色。",
+      "tags": [
+        "kids",
+        "pop",
+        "primary",
+        "playful"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#ED3D4E",
+          "prompt": "vibrant red"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#4BA969",
+          "prompt": "fresh grass green"
+        }
+      ]
+    },
+    {
+      "id": "fruit_market",
+      "category": "mood",
+      "name": "Fruit Market Pop",
+      "name_ja": "フルーツマルシェ",
+      "description_ja": "「フルーツマルシェ」をイメージし、マンゴーイエローとチェリーレッドを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "fruit",
+        "fresh",
+        "colorful"
+      ],
+      "order": 260,
+      "colors": [
+        {
+          "hex": "#FFBB4D",
+          "prompt": "mango yellow"
+        },
+        {
+          "hex": "#CF254D",
+          "prompt": "cherry red"
+        },
+        {
+          "hex": "#BDE65B",
+          "prompt": "lime green"
+        },
+        {
+          "hex": "#1D7480",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "ice_cream_parlor",
+      "category": "mood",
+      "name": "Ice Cream Parlor",
+      "name_ja": "アイスクリーム屋さん",
+      "description_ja": "「アイスクリーム屋さん」をイメージし、いちごミルク色とピスタチオグリーンを基調にした柔らかな配色。",
+      "tags": [
+        "cute",
+        "pastel",
+        "dessert",
+        "summer"
+      ],
+      "order": 270,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#C4D79A",
+          "prompt": "pistachio green"
+        },
+        {
+          "hex": "#FCEB9B",
+          "prompt": "banana yellow"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#8C675C",
+          "prompt": "warm mocha brown"
+        }
+      ]
+    },
+    {
+      "id": "comic_pop",
+      "category": "mood",
+      "name": "Comic Book Pop",
+      "name_ja": "コミックポップ",
+      "description_ja": "「コミックポップ」をイメージし、スカーレットと鮮烈なコバルトブルーを基調にした鮮やかな配色。",
+      "tags": [
+        "pop",
+        "bold",
+        "comic",
+        "contrast"
+      ],
+      "order": 280,
+      "colors": [
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        }
+      ]
+    },
+    {
+      "id": "lovely_romance",
+      "category": "mood",
+      "name": "Lovely Romance",
+      "name_ja": "ロマンティックピンク",
+      "description_ja": "「ロマンティックピンク」をイメージし、ダスティローズとブラッシュピンクを基調にした調和した配色。",
+      "tags": [
+        "romantic",
+        "cute",
+        "rose",
+        "pink"
+      ],
+      "order": 290,
+      "colors": [
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "first_love",
+      "category": "mood",
+      "name": "First Love",
+      "name_ja": "初恋の色",
+      "description_ja": "「初恋の色」をイメージし、いちごミルク色とパウダーブルーを基調にした柔らかな配色。",
+      "tags": [
+        "romantic",
+        "soft",
+        "pastel",
+        "nostalgic"
+      ],
+      "order": 300,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#F1EAF8",
+          "prompt": "lilac white"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "cozy_bookstore",
+      "category": "mood",
+      "name": "Cozy Bookstore",
+      "name_ja": "居心地のよい書店",
+      "description_ja": "「居心地のよい書店」をイメージし、エスプレッソブラウンと栗色を基調にした調和した配色。",
+      "tags": [
+        "cozy",
+        "warm",
+        "vintage",
+        "cafe"
+      ],
+      "order": 310,
+      "colors": [
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#74503E",
+          "prompt": "chestnut brown"
+        },
+        {
+          "hex": "#CB9560",
+          "prompt": "caramel brown"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "peaceful_meadow",
+      "category": "mood",
+      "name": "Peaceful Meadow",
+      "name_ja": "穏やかな草原",
+      "description_ja": "「穏やかな草原」をイメージし、フォレストグリーンとセージグリーンを基調にした柔らかな配色。",
+      "tags": [
+        "calm",
+        "nature",
+        "green",
+        "soft"
+      ],
+      "order": 320,
+      "colors": [
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#C4D79A",
+          "prompt": "pistachio green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "soft_breeze",
+      "category": "mood",
+      "name": "Gentle Breeze",
+      "name_ja": "やわらかな風",
+      "description_ja": "「やわらかな風」をイメージし、アイスブルーとシーフォームグリーンを基調にした柔らかな配色。",
+      "tags": [
+        "fresh",
+        "soft",
+        "calm",
+        "light"
+      ],
+      "order": 330,
+      "colors": [
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#9ADACF",
+          "prompt": "seafoam green"
+        },
+        {
+          "hex": "#DFEDF5",
+          "prompt": "very pale blue"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "porcelain_delicacy",
+      "category": "mood",
+      "name": "Porcelain Delicacy",
+      "name_ja": "繊細な磁器",
+      "description_ja": "「繊細な磁器」をイメージし、ロイヤルブルーとパウダーブルーを基調にした調和した配色。",
+      "tags": [
+        "delicate",
+        "elegant",
+        "light",
+        "blue"
+      ],
+      "order": 340,
+      "colors": [
+        {
+          "hex": "#25428C",
+          "prompt": "royal blue"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        }
+      ]
+    },
+    {
+      "id": "sophisticated_elegance",
+      "category": "mood",
+      "name": "Sophisticated Elegance",
+      "name_ja": "洗練された優雅さ",
+      "description_ja": "「洗練された優雅さ」をイメージし、チャコールグレーとダスティローズを基調にした調和した配色。",
+      "tags": [
+        "elegant",
+        "luxury",
+        "muted",
+        "neutral"
+      ],
+      "order": 350,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#927F79",
+          "prompt": "warm taupe"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "melancholy_twilight",
+      "category": "mood",
+      "name": "Melancholy Twilight",
+      "name_ja": "切ない夕暮れ",
+      "description_ja": "「切ない夕暮れ」をイメージし、スレートブルーと夕暮れのピンクを基調にした調和した配色。",
+      "tags": [
+        "melancholy",
+        "muted",
+        "evening"
+      ],
+      "order": 360,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#CC91A6",
+          "prompt": "dusky pink"
+        },
+        {
+          "hex": "#C7AD89",
+          "prompt": "sand beige"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "quiet_loneliness",
+      "category": "mood",
+      "name": "Quiet Loneliness",
+      "name_ja": "静かな孤独",
+      "description_ja": "「静かな孤独」をイメージし、黒に近い青とブルーグレーを基調にした重厚な配色。",
+      "tags": [
+        "melancholy",
+        "cool",
+        "minimal",
+        "dark"
+      ],
+      "order": 370,
+      "colors": [
+        {
+          "hex": "#101A22",
+          "prompt": "almost black blue"
+        },
+        {
+          "hex": "#657C96",
+          "prompt": "blue gray"
+        },
+        {
+          "hex": "#BECACB",
+          "prompt": "misty gray"
+        }
+      ]
+    },
+    {
+      "id": "mystic_fog",
+      "category": "mood",
+      "name": "Mystic Fog",
+      "name_ja": "神秘の霧",
+      "description_ja": "「神秘の霧」をイメージし、海藻色と氷河色を基調にした調和した配色。",
+      "tags": [
+        "mysterious",
+        "fantasy",
+        "atmospheric"
+      ],
+      "order": 380,
+      "colors": [
+        {
+          "hex": "#244C4D",
+          "prompt": "dark sea green"
+        },
+        {
+          "hex": "#8DBDD0",
+          "prompt": "glacier blue"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#F1EAF8",
+          "prompt": "lilac white"
+        }
+      ]
+    },
+    {
+      "id": "heroic_dawn",
+      "category": "mood",
+      "name": "Heroic Dawn",
+      "name_ja": "英雄の夜明け",
+      "description_ja": "「英雄の夜明け」をイメージし、墨色のネイビーと深紅を基調にした調和した配色。",
+      "tags": [
+        "heroic",
+        "dramatic",
+        "gold",
+        "warm"
+      ],
+      "order": 390,
+      "colors": [
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#A32D47",
+          "prompt": "crimson red"
+        },
+        {
+          "hex": "#F9CF74",
+          "prompt": "golden yellow"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "haunted_mansion",
+      "category": "mood",
+      "name": "Haunted Mansion",
+      "name_ja": "幽霊屋敷",
+      "description_ja": "「幽霊屋敷」をイメージし、黒紫と濃いプラムを基調にした重厚な配色。",
+      "tags": [
+        "horror",
+        "dark",
+        "mysterious"
+      ],
+      "order": 400,
+      "colors": [
+        {
+          "hex": "#2D2029",
+          "prompt": "black plum"
+        },
+        {
+          "hex": "#4B294C",
+          "prompt": "deep plum purple"
+        },
+        {
+          "hex": "#516B4C",
+          "prompt": "moss green"
+        },
+        {
+          "hex": "#BECACB",
+          "prompt": "misty gray"
+        }
+      ]
+    },
+    {
+      "id": "ominous_signal",
+      "category": "mood",
+      "name": "Ominous Signal",
+      "name_ja": "不吉な予兆",
+      "description_ja": "「不吉な予兆」をイメージし、ほぼ黒と深いワイン色を基調にした調和した配色。",
+      "tags": [
+        "horror",
+        "ominous",
+        "contrast"
+      ],
+      "order": 410,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#4D1624",
+          "prompt": "dark wine red"
+        },
+        {
+          "hex": "#DC513F",
+          "prompt": "vermilion red"
+        }
+      ]
+    },
+    {
+      "id": "festival_euphoria",
+      "category": "mood",
+      "name": "Festival Euphoria",
+      "name_ja": "お祭りの高揚感",
+      "description_ja": "「お祭りの高揚感」をイメージし、マゼンタとマンゴーイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "festival",
+        "pop",
+        "bright",
+        "playful"
+      ],
+      "order": 420,
+      "colors": [
+        {
+          "hex": "#DE33A1",
+          "prompt": "vivid magenta"
+        },
+        {
+          "hex": "#FFBB4D",
+          "prompt": "mango yellow"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#4BA969",
+          "prompt": "fresh grass green"
+        },
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        }
+      ]
+    },
+    {
+      "id": "energetic_sports",
+      "category": "mood",
+      "name": "Energetic Sports",
+      "name_ja": "スポーツの躍動",
+      "description_ja": "「スポーツの躍動」をイメージし、鮮烈なコバルトブルーとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "sporty",
+        "vibrant",
+        "pop"
+      ],
+      "order": 430,
+      "colors": [
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "rebellious_youth",
+      "category": "mood",
+      "name": "Rebellious Youth",
+      "name_ja": "反骨の青春",
+      "description_ja": "「反骨の青春」をイメージし、チャコールグレーとスカーレットを基調にした調和した配色。",
+      "tags": [
+        "rebellious",
+        "grunge",
+        "street"
+      ],
+      "order": 440,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        }
+      ]
+    },
+    {
+      "id": "nostalgic_daydream",
+      "category": "mood",
+      "name": "Nostalgic Daydream",
+      "name_ja": "懐かしい白昼夢",
+      "description_ja": "「懐かしい白昼夢」をイメージし、ソフトピーチとくすんだブルーを基調にした柔らかな配色。",
+      "tags": [
+        "nostalgia",
+        "pastel",
+        "retro",
+        "soft"
+      ],
+      "order": 450,
+      "colors": [
+        {
+          "hex": "#F3B99E",
+          "prompt": "soft peach pink"
+        },
+        {
+          "hex": "#8CAFC9",
+          "prompt": "dusty blue"
+        },
+        {
+          "hex": "#D4D5AD",
+          "prompt": "pale olive green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "bubblegum_twist",
+      "category": "mood",
+      "name": "Bubblegum Twist",
+      "name_ja": "バブルガム・ツイスト",
+      "description_ja": "バブルガム・ツイストをイメージした2色配色。bubblegum pinkとbright turquoiseを組み合わせたパレット。",
+      "tags": [
+        "cute",
+        "playful",
+        "sweet"
+      ],
+      "order": 460,
+      "colors": [
+        {
+          "hex": "#FFB3D9",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#27D3C4",
+          "prompt": "bright turquoise"
+        }
+      ]
+    },
+    {
+      "id": "happy_peach",
+      "category": "mood",
+      "name": "Happy Peach",
+      "name_ja": "ハッピーピーチ",
+      "description_ja": "ハッピーピーチをイメージした2色配色。soft peachとbutter yellowを組み合わせたパレット。",
+      "tags": [
+        "happy",
+        "sweet",
+        "warm"
+      ],
+      "order": 470,
+      "colors": [
+        {
+          "hex": "#FFC09B",
+          "prompt": "soft peach"
+        },
+        {
+          "hex": "#FFE28A",
+          "prompt": "butter yellow"
+        }
+      ]
+    },
+    {
+      "id": "plush_lavender",
+      "category": "mood",
+      "name": "Plush Lavender",
+      "name_ja": "ふわふわラベンダー",
+      "description_ja": "ふわふわラベンダーをイメージした2色配色。pastel lavenderとblush ivoryを組み合わせたパレット。",
+      "tags": [
+        "cute",
+        "dreamy",
+        "pastel"
+      ],
+      "order": 480,
+      "colors": [
+        {
+          "hex": "#C9B7FF",
+          "prompt": "pastel lavender"
+        },
+        {
+          "hex": "#F8E7F0",
+          "prompt": "blush ivory"
+        }
+      ]
+    },
+    {
+      "id": "minty_morning",
+      "category": "mood",
+      "name": "Minty Morning",
+      "name_ja": "ミントの朝",
+      "description_ja": "ミントの朝をイメージした2色配色。soft mint greenとvanilla creamを組み合わせたパレット。",
+      "tags": [
+        "fresh",
+        "cute",
+        "airy"
+      ],
+      "order": 490,
+      "colors": [
+        {
+          "hex": "#B7EDD9",
+          "prompt": "soft mint green"
+        },
+        {
+          "hex": "#FFF1B7",
+          "prompt": "vanilla cream"
+        }
+      ]
+    },
+    {
+      "id": "candy_heart",
+      "category": "mood",
+      "name": "Candy Heart",
+      "name_ja": "キャンディハート",
+      "description_ja": "キャンディハートをイメージした2色配色。hot pinkとgolden yellowを組み合わせたパレット。",
+      "tags": [
+        "sweet",
+        "cheerful",
+        "pop"
+      ],
+      "order": 500,
+      "colors": [
+        {
+          "hex": "#FF578F",
+          "prompt": "hot pink"
+        },
+        {
+          "hex": "#FFD85E",
+          "prompt": "golden yellow"
+        }
+      ]
+    },
+    {
+      "id": "cheerful_poppy",
+      "category": "mood",
+      "name": "Cheerful Poppy",
+      "name_ja": "陽気なポピー",
+      "description_ja": "陽気なポピーをイメージした2色配色。poppy redとaqua blueを組み合わせたパレット。",
+      "tags": [
+        "energetic",
+        "vibrant",
+        "cheerful"
+      ],
+      "order": 510,
+      "colors": [
+        {
+          "hex": "#F55049",
+          "prompt": "poppy red"
+        },
+        {
+          "hex": "#4FD5E6",
+          "prompt": "aqua blue"
+        }
+      ]
+    },
+    {
+      "id": "dreamy_periwinkle",
+      "category": "mood",
+      "name": "Dreamy Periwinkle",
+      "name_ja": "夢色ペリウィンクル",
+      "description_ja": "夢色ペリウィンクルをイメージした2色配色。soft periwinkleとlight rose pinkを組み合わせたパレット。",
+      "tags": [
+        "dreamy",
+        "soft",
+        "romantic"
+      ],
+      "order": 520,
+      "colors": [
+        {
+          "hex": "#9BACEF",
+          "prompt": "soft periwinkle"
+        },
+        {
+          "hex": "#FED2E6",
+          "prompt": "light rose pink"
+        }
+      ]
+    },
+    {
+      "id": "friendly_sunshine",
+      "category": "mood",
+      "name": "Friendly Sunshine",
+      "name_ja": "陽だまりスマイル",
+      "description_ja": "陽だまりスマイルをイメージした2色配色。sunshine yellowとsoft sky blueを組み合わせたパレット。",
+      "tags": [
+        "friendly",
+        "bright",
+        "fresh"
+      ],
+      "order": 530,
+      "colors": [
+        {
+          "hex": "#FFDA59",
+          "prompt": "sunshine yellow"
+        },
+        {
+          "hex": "#8BC7F0",
+          "prompt": "soft sky blue"
+        }
+      ]
+    },
+    {
+      "id": "gentle_whisper",
+      "category": "mood",
+      "name": "Gentle Whisper",
+      "name_ja": "やさしいささやき",
+      "description_ja": "やさしいささやきをイメージした2色配色。warm greigeとlilac mistを組み合わせたパレット。",
+      "tags": [
+        "gentle",
+        "calm",
+        "muted"
+      ],
+      "order": 540,
+      "colors": [
+        {
+          "hex": "#D6C5B6",
+          "prompt": "warm greige"
+        },
+        {
+          "hex": "#E9D8E9",
+          "prompt": "lilac mist"
+        }
+      ]
+    },
+    {
+      "id": "quiet_gloom",
+      "category": "mood",
+      "name": "Quiet Gloom",
+      "name_ja": "静かな憂鬱",
+      "description_ja": "静かな憂鬱をイメージした2色配色。slate navyとcloudy blue grayを組み合わせたパレット。",
+      "tags": [
+        "melancholic",
+        "moody",
+        "cool"
+      ],
+      "order": 550,
+      "colors": [
+        {
+          "hex": "#27364A",
+          "prompt": "slate navy"
+        },
+        {
+          "hex": "#9BABB7",
+          "prompt": "cloudy blue gray"
+        }
+      ]
+    },
+    {
+      "id": "blue_gold",
+      "category": "hue",
+      "name": "Blue & Gold",
+      "name_ja": "青と金",
+      "description_ja": "2色対応の検証用（仮データ）",
+      "tags": [
+        "blue",
+        "gold"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#223B69",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#CDA85C",
+          "prompt": "muted gold"
+        }
+      ]
+    },
+    {
+      "id": "crimson_rose",
+      "category": "hue",
+      "name": "Crimson Rose",
+      "name_ja": "深紅と薔薇",
+      "description_ja": "赤系の濃淡を引き立てたドラマチックな配色。",
+      "tags": [
+        "red",
+        "rose",
+        "warm"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#321D26",
+          "prompt": "black cherry"
+        },
+        {
+          "hex": "#9B2D3E",
+          "prompt": "crimson red"
+        },
+        {
+          "hex": "#E7A8A4",
+          "prompt": "dusty rose"
+        }
+      ]
+    },
+    {
+      "id": "orange_copper",
+      "category": "hue",
+      "name": "Orange & Copper",
+      "name_ja": "橙と銅",
+      "description_ja": "赤みのある銅色から淡い杏色までの暖色配色。",
+      "tags": [
+        "orange",
+        "copper",
+        "warm"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#442D27",
+          "prompt": "dark umber"
+        },
+        {
+          "hex": "#A04D35",
+          "prompt": "burnt sienna"
+        },
+        {
+          "hex": "#DC9364",
+          "prompt": "terracotta orange"
+        },
+        {
+          "hex": "#F4D5A2",
+          "prompt": "pale apricot"
+        }
+      ]
+    },
+    {
+      "id": "golden_wheat",
+      "category": "hue",
+      "name": "Golden Wheat",
+      "name_ja": "金色と麦",
+      "description_ja": "金色の明暗を軸にした上品な黄系配色。",
+      "tags": [
+        "yellow",
+        "gold",
+        "earthy"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#4D493C",
+          "prompt": "warm charcoal"
+        },
+        {
+          "hex": "#8E7745",
+          "prompt": "muted ochre"
+        },
+        {
+          "hex": "#C3A15F",
+          "prompt": "antique gold"
+        },
+        {
+          "hex": "#F0D392",
+          "prompt": "wheat yellow"
+        },
+        {
+          "hex": "#F8F0DC",
+          "prompt": "ivory"
+        }
+      ]
+    },
+    {
+      "id": "forest_green",
+      "category": "hue",
+      "name": "Forest Green",
+      "name_ja": "深い森の緑",
+      "description_ja": "暗緑色から灰みの黄緑まで自然な調和を持たせた配色。",
+      "tags": [
+        "green",
+        "forest",
+        "natural"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#182E28",
+          "prompt": "deep forest green"
+        },
+        {
+          "hex": "#3A6850",
+          "prompt": "moss green"
+        },
+        {
+          "hex": "#90AC83",
+          "prompt": "soft olive green"
+        },
+        {
+          "hex": "#E8E9D8",
+          "prompt": "off-white"
+        }
+      ]
+    },
+    {
+      "id": "seafoam_mint",
+      "category": "hue",
+      "name": "Seafoam Mint",
+      "name_ja": "海色とミント",
+      "description_ja": "青緑の濃淡を主体にした透明感のある配色。",
+      "tags": [
+        "teal",
+        "mint",
+        "cool"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#126A79",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#6DCDC5",
+          "prompt": "seafoam green"
+        },
+        {
+          "hex": "#DFF6E9",
+          "prompt": "pale mint"
+        }
+      ]
+    },
+    {
+      "id": "violet_lilac",
+      "category": "hue",
+      "name": "Violet & Lilac",
+      "name_ja": "紫とライラック",
+      "description_ja": "暗い紫から淡いライラックへつなぐ紫系の配色。",
+      "tags": [
+        "purple",
+        "violet",
+        "lavender"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#30213E",
+          "prompt": "midnight purple"
+        },
+        {
+          "hex": "#6C4A82",
+          "prompt": "muted violet"
+        },
+        {
+          "hex": "#A881CB",
+          "prompt": "lavender purple"
+        },
+        {
+          "hex": "#DACBEF",
+          "prompt": "pale lilac"
+        },
+        {
+          "hex": "#F1EDF7",
+          "prompt": "lavender white"
+        }
+      ]
+    },
+    {
+      "id": "rose_cocoa",
+      "category": "hue",
+      "name": "Rose & Cocoa",
+      "name_ja": "薔薇色とココア",
+      "description_ja": "赤紫から淡いピンクへつなぐ落ち着いた桃色系。",
+      "tags": [
+        "pink",
+        "rose",
+        "muted"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#533B48",
+          "prompt": "dusty plum"
+        },
+        {
+          "hex": "#AA6B82",
+          "prompt": "antique rose"
+        },
+        {
+          "hex": "#E7B3BC",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F5E7D8",
+          "prompt": "pale cream"
+        }
+      ]
+    },
+    {
+      "id": "ruby_cream",
+      "category": "hue",
+      "name": "Ruby & Cream",
+      "name_ja": "ルビーとクリーム",
+      "description_ja": "「ルビーとクリーム」をイメージし、ルビーレッドと柔らかなクリームを基調にした調和した配色。",
+      "tags": [
+        "red",
+        "cream",
+        "elegant"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#AA2349",
+          "prompt": "ruby red"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "coral_turquoise",
+      "category": "hue",
+      "name": "Coral & Turquoise",
+      "name_ja": "珊瑚とターコイズ",
+      "description_ja": "「珊瑚とターコイズ」をイメージし、くすんだコーラルとターコイズブルーを基調にした調和した配色。",
+      "tags": [
+        "coral",
+        "blue",
+        "summery"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#E9877D",
+          "prompt": "muted coral pink"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "scarlet_black",
+      "category": "hue",
+      "name": "Scarlet & Black",
+      "name_ja": "スカーレットと黒",
+      "description_ja": "「スカーレットと黒」をイメージし、ほぼ黒とスカーレットを基調にした調和した配色。",
+      "tags": [
+        "red",
+        "black",
+        "contrast"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        }
+      ]
+    },
+    {
+      "id": "pink_white",
+      "category": "hue",
+      "name": "Pink & White",
+      "name_ja": "ピンクと白",
+      "description_ja": "「ピンクと白」をイメージし、バブルガムピンクとミルキーホワイトを基調にした調和した配色。",
+      "tags": [
+        "pink",
+        "white",
+        "cute"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        }
+      ]
+    },
+    {
+      "id": "pink_mint",
+      "category": "hue",
+      "name": "Pink & Mint",
+      "name_ja": "ピンクとミント",
+      "description_ja": "「ピンクとミント」をイメージし、ベビーピンクとパステルミントを基調にした柔らかな配色。",
+      "tags": [
+        "pink",
+        "mint",
+        "cute",
+        "pastel"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "pink_chocolate",
+      "category": "hue",
+      "name": "Pink & Chocolate",
+      "name_ja": "ピンクとチョコ",
+      "description_ja": "「ピンクとチョコ」をイメージし、チョコレートブラウンといちごミルク色を基調にした調和した配色。",
+      "tags": [
+        "pink",
+        "brown",
+        "sweet"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#583A38",
+          "prompt": "chocolate brown"
+        },
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "plum_copper",
+      "category": "hue",
+      "name": "Plum & Copper",
+      "name_ja": "プラムと銅",
+      "description_ja": "「プラムと銅」をイメージし、濃いプラムと銅色を基調にした調和した配色。",
+      "tags": [
+        "purple",
+        "copper",
+        "elegant"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#4B294C",
+          "prompt": "deep plum purple"
+        },
+        {
+          "hex": "#BC7656",
+          "prompt": "warm copper"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        }
+      ]
+    },
+    {
+      "id": "lavender_lemon",
+      "category": "hue",
+      "name": "Lavender & Lemon",
+      "name_ja": "ラベンダーとレモン",
+      "description_ja": "「ラベンダーとレモン」をイメージし、淡いラベンダーとレモンクリームを基調にした柔らかな配色。",
+      "tags": [
+        "purple",
+        "yellow",
+        "pastel"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FFF5C7",
+          "prompt": "lemon cream"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "orchid_teal",
+      "category": "hue",
+      "name": "Orchid & Teal",
+      "name_ja": "オーキッドと青緑",
+      "description_ja": "「オーキッドと青緑」をイメージし、オーキッドパープルとディープティールを基調にした調和した配色。",
+      "tags": [
+        "purple",
+        "teal",
+        "contrast"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#AB6AB8",
+          "prompt": "orchid purple"
+        },
+        {
+          "hex": "#1D7480",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "ultraviolet_gold",
+      "category": "hue",
+      "name": "Ultraviolet & Gold",
+      "name_ja": "濃紫とゴールド",
+      "description_ja": "「濃紫とゴールド」をイメージし、深い紫と落ち着いた金色を基調にした調和した配色。",
+      "tags": [
+        "purple",
+        "gold",
+        "luxury"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#5D328B",
+          "prompt": "deep purple"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        }
+      ]
+    },
+    {
+      "id": "amber_navy",
+      "category": "hue",
+      "name": "Amber & Navy",
+      "name_ja": "琥珀とネイビー",
+      "description_ja": "「琥珀とネイビー」をイメージし、濃紺とジンジャーオレンジを基調にした調和した配色。",
+      "tags": [
+        "orange",
+        "navy",
+        "classic"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#C87A3E",
+          "prompt": "warm ginger orange"
+        },
+        {
+          "hex": "#CB9560",
+          "prompt": "caramel brown"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "mustard_olive",
+      "category": "hue",
+      "name": "Mustard & Olive",
+      "name_ja": "マスタードとオリーブ",
+      "description_ja": "「マスタードとオリーブ」をイメージし、マスタードイエローとオリーブグリーンを基調にした調和した配色。",
+      "tags": [
+        "yellow",
+        "green",
+        "earthy"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#C59B38",
+          "prompt": "mustard yellow"
+        },
+        {
+          "hex": "#78855A",
+          "prompt": "olive green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "lemon_cobalt",
+      "category": "hue",
+      "name": "Lemon & Cobalt",
+      "name_ja": "レモンとコバルト",
+      "description_ja": "「レモンとコバルト」をイメージし、鮮烈なコバルトブルーとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "blue",
+        "yellow",
+        "pop"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "ochre_cream",
+      "category": "hue",
+      "name": "Ochre & Cream",
+      "name_ja": "黄土とクリーム",
+      "description_ja": "「黄土とクリーム」をイメージし、マスタードイエローとウォームベージュを基調にした調和した配色。",
+      "tags": [
+        "ochre",
+        "neutral",
+        "warm"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#C59B38",
+          "prompt": "mustard yellow"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "tangerine_lime",
+      "category": "hue",
+      "name": "Tangerine & Lime",
+      "name_ja": "橙とライム",
+      "description_ja": "「橙とライム」をイメージし、タンジェリンオレンジとライムグリーンを基調にした鮮やかな配色。",
+      "tags": [
+        "orange",
+        "green",
+        "vibrant"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#BDE65B",
+          "prompt": "lime green"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "orange_teal",
+      "category": "hue",
+      "name": "Orange & Teal",
+      "name_ja": "オレンジとティール",
+      "description_ja": "「オレンジとティール」をイメージし、タンジェリンオレンジとディープティールを基調にした調和した配色。",
+      "tags": [
+        "orange",
+        "teal",
+        "cinematic"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#1D7480",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        }
+      ]
+    },
+    {
+      "id": "brick_sage",
+      "category": "hue",
+      "name": "Brick & Sage",
+      "name_ja": "煉瓦とセージ",
+      "description_ja": "「煉瓦とセージ」をイメージし、煉瓦色とセージグリーンを基調にした調和した配色。",
+      "tags": [
+        "red",
+        "green",
+        "muted"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#A34C43",
+          "prompt": "brick red"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "terracotta_blush",
+      "category": "hue",
+      "name": "Terracotta & Blush",
+      "name_ja": "テラコッタと薄桃",
+      "description_ja": "「テラコッタと薄桃」をイメージし、テラコッタとブラッシュピンクを基調にした柔らかな配色。",
+      "tags": [
+        "terracotta",
+        "pink",
+        "soft"
+      ],
+      "order": 260,
+      "colors": [
+        {
+          "hex": "#C4775B",
+          "prompt": "warm terracotta"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "pistachio_peach",
+      "category": "hue",
+      "name": "Pistachio & Peach",
+      "name_ja": "ピスタチオと桃",
+      "description_ja": "「ピスタチオと桃」をイメージし、ピスタチオグリーンとソフトピーチを基調にした柔らかな配色。",
+      "tags": [
+        "green",
+        "peach",
+        "pastel"
+      ],
+      "order": 270,
+      "colors": [
+        {
+          "hex": "#C4D79A",
+          "prompt": "pistachio green"
+        },
+        {
+          "hex": "#F3B99E",
+          "prompt": "soft peach pink"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "mint_lilac",
+      "category": "hue",
+      "name": "Mint & Lilac",
+      "name_ja": "ミントとライラック",
+      "description_ja": "「ミントとライラック」をイメージし、パステルミントと柔らかなライラックを基調にした調和した配色。",
+      "tags": [
+        "mint",
+        "purple",
+        "cute"
+      ],
+      "order": 280,
+      "colors": [
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "mint_brown",
+      "category": "hue",
+      "name": "Mint & Cocoa",
+      "name_ja": "ミントとココア",
+      "description_ja": "「ミントとココア」をイメージし、パステルミントとココアブラウンを基調にした調和した配色。",
+      "tags": [
+        "mint",
+        "brown",
+        "retro"
+      ],
+      "order": 290,
+      "colors": [
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#6C4D46",
+          "prompt": "cocoa brown"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "emerald_cream",
+      "category": "hue",
+      "name": "Emerald & Cream",
+      "name_ja": "エメラルドと乳白",
+      "description_ja": "「エメラルドと乳白」をイメージし、エメラルドグリーンと柔らかなクリームを基調にした調和した配色。",
+      "tags": [
+        "green",
+        "cream",
+        "luxury"
+      ],
+      "order": 300,
+      "colors": [
+        {
+          "hex": "#20846D",
+          "prompt": "emerald green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        }
+      ]
+    },
+    {
+      "id": "jade_gold",
+      "category": "hue",
+      "name": "Jade & Gold",
+      "name_ja": "翡翠と金",
+      "description_ja": "「翡翠と金」をイメージし、ジェードグリーンと淡い金を基調にした調和した配色。",
+      "tags": [
+        "jade",
+        "gold",
+        "elegant"
+      ],
+      "order": 310,
+      "colors": [
+        {
+          "hex": "#4DA58A",
+          "prompt": "jade green"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        }
+      ]
+    },
+    {
+      "id": "cobalt_coral",
+      "category": "hue",
+      "name": "Cobalt & Coral",
+      "name_ja": "コバルトとコーラル",
+      "description_ja": "「コバルトとコーラル」をイメージし、鮮烈なコバルトブルーとくすんだコーラルを基調にした調和した配色。",
+      "tags": [
+        "blue",
+        "coral",
+        "modern"
+      ],
+      "order": 320,
+      "colors": [
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#E9877D",
+          "prompt": "muted coral pink"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "sky_yellow",
+      "category": "hue",
+      "name": "Sky Blue & Yellow",
+      "name_ja": "空色と黄色",
+      "description_ja": "「空色と黄色」をイメージし、スカイブルーとバナナイエローを基調にした調和した配色。",
+      "tags": [
+        "blue",
+        "yellow",
+        "happy"
+      ],
+      "order": 330,
+      "colors": [
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#FCEB9B",
+          "prompt": "banana yellow"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "navy_pink",
+      "category": "hue",
+      "name": "Navy & Pink",
+      "name_ja": "ネイビーとピンク",
+      "description_ja": "「ネイビーとピンク」をイメージし、濃紺とフラミンゴピンクを基調にした調和した配色。",
+      "tags": [
+        "navy",
+        "pink",
+        "fashion"
+      ],
+      "order": 340,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#F86A9D",
+          "prompt": "flamingo pink"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "black_white_red",
+      "category": "hue",
+      "name": "Black White & Red",
+      "name_ja": "黒白赤",
+      "description_ja": "「黒白赤」をイメージし、ほぼ黒とミルキーホワイトを基調にした調和した配色。",
+      "tags": [
+        "monochrome",
+        "red",
+        "bold"
+      ],
+      "order": 350,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        }
+      ]
+    },
+    {
+      "id": "watermelon_lime",
+      "category": "hue",
+      "name": "Watermelon & Lime",
+      "name_ja": "スイカとライム",
+      "description_ja": "スイカとライムをイメージした2色配色。watermelon pinkとlime greenを組み合わせたパレット。",
+      "tags": [
+        "pink",
+        "green",
+        "fresh",
+        "pop"
+      ],
+      "order": 360,
+      "colors": [
+        {
+          "hex": "#FF5A74",
+          "prompt": "watermelon pink"
+        },
+        {
+          "hex": "#BEF45C",
+          "prompt": "lime green"
+        }
+      ]
+    },
+    {
+      "id": "raspberry_pistachio",
+      "category": "hue",
+      "name": "Raspberry & Pistachio",
+      "name_ja": "ラズベリーとピスタチオ",
+      "description_ja": "ラズベリーとピスタチオをイメージした2色配色。raspberry pinkとpistachio greenを組み合わせたパレット。",
+      "tags": [
+        "pink",
+        "green",
+        "sweet"
+      ],
+      "order": 370,
+      "colors": [
+        {
+          "hex": "#BD3B72",
+          "prompt": "raspberry pink"
+        },
+        {
+          "hex": "#BCD69B",
+          "prompt": "pistachio green"
+        }
+      ]
+    },
+    {
+      "id": "mango_cobalt",
+      "category": "hue",
+      "name": "Mango & Cobalt",
+      "name_ja": "マンゴーとコバルト",
+      "description_ja": "マンゴーとコバルトをイメージした2色配色。mango orangeとcobalt blueを組み合わせたパレット。",
+      "tags": [
+        "orange",
+        "blue",
+        "bold"
+      ],
+      "order": 380,
+      "colors": [
+        {
+          "hex": "#FFB33B",
+          "prompt": "mango orange"
+        },
+        {
+          "hex": "#3559DD",
+          "prompt": "cobalt blue"
+        }
+      ]
+    },
+    {
+      "id": "coral_lagoon",
+      "category": "hue",
+      "name": "Coral & Lagoon",
+      "name_ja": "コーラルとラグーン",
+      "description_ja": "コーラルとラグーンをイメージした2色配色。bright coralとlagoon tealを組み合わせたパレット。",
+      "tags": [
+        "coral",
+        "teal",
+        "tropical"
+      ],
+      "order": 390,
+      "colors": [
+        {
+          "hex": "#FF826E",
+          "prompt": "bright coral"
+        },
+        {
+          "hex": "#138F96",
+          "prompt": "lagoon teal"
+        }
+      ]
+    },
+    {
+      "id": "tangerine_cream",
+      "category": "hue",
+      "name": "Tangerine & Cream",
+      "name_ja": "タンジェリンとクリーム",
+      "description_ja": "タンジェリンとクリームをイメージした2色配色。tangerine orangeとvanilla creamを組み合わせたパレット。",
+      "tags": [
+        "orange",
+        "cream",
+        "warm"
+      ],
+      "order": 400,
+      "colors": [
+        {
+          "hex": "#FF893B",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#FFF1D7",
+          "prompt": "vanilla cream"
+        }
+      ]
+    },
+    {
+      "id": "cherry_ice",
+      "category": "hue",
+      "name": "Cherry & Ice",
+      "name_ja": "チェリーとアイス",
+      "description_ja": "チェリーとアイスをイメージした2色配色。cherry redとicy aquaを組み合わせたパレット。",
+      "tags": [
+        "red",
+        "cyan",
+        "contrast"
+      ],
+      "order": 410,
+      "colors": [
+        {
+          "hex": "#CE2946",
+          "prompt": "cherry red"
+        },
+        {
+          "hex": "#C7F0F1",
+          "prompt": "icy aqua"
+        }
+      ]
+    },
+    {
+      "id": "rose_indigo",
+      "category": "hue",
+      "name": "Rose & Indigo",
+      "name_ja": "ローズとインディゴ",
+      "description_ja": "ローズとインディゴをイメージした2色配色。rose pinkとdeep indigoを組み合わせたパレット。",
+      "tags": [
+        "pink",
+        "blue",
+        "elegant"
+      ],
+      "order": 420,
+      "colors": [
+        {
+          "hex": "#EB8EB5",
+          "prompt": "rose pink"
+        },
+        {
+          "hex": "#34266E",
+          "prompt": "deep indigo"
+        }
+      ]
+    },
+    {
+      "id": "apricot_lilac",
+      "category": "hue",
+      "name": "Apricot & Lilac",
+      "name_ja": "アプリコットとライラック",
+      "description_ja": "アプリコットとライラックをイメージした2色配色。apricot peachとlilac purpleを組み合わせたパレット。",
+      "tags": [
+        "peach",
+        "purple",
+        "pastel"
+      ],
+      "order": 430,
+      "colors": [
+        {
+          "hex": "#F7C4A6",
+          "prompt": "apricot peach"
+        },
+        {
+          "hex": "#B1A2E4",
+          "prompt": "lilac purple"
+        }
+      ]
+    },
+    {
+      "id": "lime_plum",
+      "category": "hue",
+      "name": "Lime & Plum",
+      "name_ja": "ライムとプラム",
+      "description_ja": "ライムとプラムをイメージした2色配色。lime greenとdeep plum purpleを組み合わせたパレット。",
+      "tags": [
+        "green",
+        "purple",
+        "contrast"
+      ],
+      "order": 440,
+      "colors": [
+        {
+          "hex": "#D2EF60",
+          "prompt": "lime green"
+        },
+        {
+          "hex": "#613A68",
+          "prompt": "deep plum purple"
+        }
+      ]
+    },
+    {
+      "id": "teal_amber",
+      "category": "hue",
+      "name": "Teal & Amber",
+      "name_ja": "ティールとアンバー",
+      "description_ja": "ティールとアンバーをイメージした2色配色。deep tealとwarm amberを組み合わせたパレット。",
+      "tags": [
+        "teal",
+        "gold",
+        "cinematic"
+      ],
+      "order": 450,
+      "colors": [
+        {
+          "hex": "#0D6773",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#E7A63D",
+          "prompt": "warm amber"
+        }
+      ]
+    },
+    {
+      "id": "sea_blue_sand",
+      "category": "hue",
+      "name": "Sea Blue & Sand",
+      "name_ja": "海青と砂色",
+      "description_ja": "海青と砂色をイメージした2色配色。ocean blueとwarm sand beigeを組み合わせたパレット。",
+      "tags": [
+        "blue",
+        "beige",
+        "coastal"
+      ],
+      "order": 460,
+      "colors": [
+        {
+          "hex": "#2A93C7",
+          "prompt": "ocean blue"
+        },
+        {
+          "hex": "#E9D7AE",
+          "prompt": "warm sand beige"
+        }
+      ]
+    },
+    {
+      "id": "mustard_burgundy",
+      "category": "hue",
+      "name": "Mustard & Burgundy",
+      "name_ja": "マスタードとバーガンディ",
+      "description_ja": "マスタードとバーガンディをイメージした2色配色。mustard goldとdeep burgundyを組み合わせたパレット。",
+      "tags": [
+        "yellow",
+        "burgundy",
+        "vintage"
+      ],
+      "order": 470,
+      "colors": [
+        {
+          "hex": "#C79B33",
+          "prompt": "mustard gold"
+        },
+        {
+          "hex": "#732D43",
+          "prompt": "deep burgundy"
+        }
+      ]
+    },
+    {
+      "id": "muted_sunset",
+      "category": "tone",
+      "name": "Muted Sunset",
+      "name_ja": "くすんだ夕暮れ",
+      "description_ja": "4色対応の検証用（仮データ）",
+      "tags": [
+        "muted",
+        "warm"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#283C55",
+          "prompt": "slate navy"
+        },
+        {
+          "hex": "#AD6D88",
+          "prompt": "dusty mauve"
+        },
+        {
+          "hex": "#D99B84",
+          "prompt": "muted coral"
+        },
+        {
+          "hex": "#E9C7A1",
+          "prompt": "warm beige"
+        }
+      ]
+    },
+    {
+      "id": "airy_pastel",
+      "category": "tone",
+      "name": "Airy Pastel",
+      "name_ja": "エアリーパステル",
+      "description_ja": "全色を高明度・低彩度に揃えた軽いトーン。",
+      "tags": [
+        "pastel",
+        "light",
+        "soft"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#D5E8E6",
+          "prompt": "pale mint"
+        },
+        {
+          "hex": "#D7E1F2",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#EAD8E6",
+          "prompt": "pale lavender pink"
+        },
+        {
+          "hex": "#F3E5CF",
+          "prompt": "soft peach beige"
+        },
+        {
+          "hex": "#FBF6EE",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "vivid_primary",
+      "category": "tone",
+      "name": "Vivid Primary",
+      "name_ja": "鮮やかな原色",
+      "description_ja": "赤・青・黄の強い彩度とコントラストを活かす配色。",
+      "tags": [
+        "vivid",
+        "primary",
+        "bold"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#F03A4D",
+          "prompt": "vibrant red"
+        },
+        {
+          "hex": "#2C61CF",
+          "prompt": "cobalt blue"
+        },
+        {
+          "hex": "#F5CA38",
+          "prompt": "bright yellow"
+        }
+      ]
+    },
+    {
+      "id": "neon_night",
+      "category": "tone",
+      "name": "Neon Night",
+      "name_ja": "ネオンの夜",
+      "description_ja": "ほぼ黒い背景に高彩度の蛍光色を合わせる。",
+      "tags": [
+        "neon",
+        "high-contrast",
+        "dark"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#11142B",
+          "prompt": "midnight navy"
+        },
+        {
+          "hex": "#EF37AB",
+          "prompt": "neon pink"
+        },
+        {
+          "hex": "#26D9DF",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#7643CE",
+          "prompt": "electric violet"
+        }
+      ]
+    },
+    {
+      "id": "deep_jewel",
+      "category": "tone",
+      "name": "Deep Jewel",
+      "name_ja": "深い宝石色",
+      "description_ja": "暗部を残しながらエメラルド・赤・青の宝石色を強調。",
+      "tags": [
+        "jewel",
+        "deep",
+        "saturated"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#181F2B",
+          "prompt": "dark ink blue"
+        },
+        {
+          "hex": "#146D5D",
+          "prompt": "deep emerald green"
+        },
+        {
+          "hex": "#8D2D4C",
+          "prompt": "garnet red"
+        },
+        {
+          "hex": "#285AA0",
+          "prompt": "sapphire blue"
+        },
+        {
+          "hex": "#9160A8",
+          "prompt": "amethyst purple"
+        }
+      ]
+    },
+    {
+      "id": "soft_monochrome",
+      "category": "tone",
+      "name": "Soft Monochrome",
+      "name_ja": "柔らかなモノクロ",
+      "description_ja": "階調幅を保ちながら低彩度のグレーだけでまとめる。",
+      "tags": [
+        "monochrome",
+        "neutral",
+        "soft"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#292B2F",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#898E96",
+          "prompt": "medium gray"
+        },
+        {
+          "hex": "#ECEDEC",
+          "prompt": "pale gray"
+        }
+      ]
+    },
+    {
+      "id": "earthy_muted",
+      "category": "tone",
+      "name": "Earthy Muted",
+      "name_ja": "くすんだ大地色",
+      "description_ja": "土・植物・石を思わせる低彩度の落ち着いたトーン。",
+      "tags": [
+        "muted",
+        "earthy",
+        "natural"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#454D41",
+          "prompt": "olive charcoal"
+        },
+        {
+          "hex": "#9E7464",
+          "prompt": "muted terracotta"
+        },
+        {
+          "hex": "#9AA98D",
+          "prompt": "dusty sage green"
+        },
+        {
+          "hex": "#E9DDC8",
+          "prompt": "warm beige"
+        }
+      ]
+    },
+    {
+      "id": "icy_desaturated",
+      "category": "tone",
+      "name": "Icy Desaturated",
+      "name_ja": "冷たい低彩度",
+      "description_ja": "青みの灰色と氷白色で冷たく抑制した色調。",
+      "tags": [
+        "cool",
+        "desaturated",
+        "minimal"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#435A6C",
+          "prompt": "steel blue gray"
+        },
+        {
+          "hex": "#DCE9EE",
+          "prompt": "icy white"
+        }
+      ]
+    },
+    {
+      "id": "powder_pastel",
+      "category": "tone",
+      "name": "Powder Pastels",
+      "name_ja": "パウダーパステル",
+      "description_ja": "「パウダーパステル」をイメージし、パウダーブルーとベビーピンクを基調にした柔らかな配色。",
+      "tags": [
+        "pastel",
+        "light",
+        "soft"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#F9F2C4",
+          "prompt": "pastel yellow"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        }
+      ]
+    },
+    {
+      "id": "sugar_pastel",
+      "category": "tone",
+      "name": "Sugar Pastels",
+      "name_ja": "シュガーパステル",
+      "description_ja": "「シュガーパステル」をイメージし、いちごミルク色とレモンクリームを基調にした柔らかな配色。",
+      "tags": [
+        "pastel",
+        "cute",
+        "soft"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#FFF5C7",
+          "prompt": "lemon cream"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#9ADACF",
+          "prompt": "seafoam green"
+        }
+      ]
+    },
+    {
+      "id": "muted_pink",
+      "category": "tone",
+      "name": "Muted Pink Tones",
+      "name_ja": "くすみピンク",
+      "description_ja": "「くすみピンク」をイメージし、ダスティローズと夕暮れのピンクを基調にした調和した配色。",
+      "tags": [
+        "muted",
+        "pink",
+        "romantic"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#CC91A6",
+          "prompt": "dusky pink"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F8E7EC",
+          "prompt": "pale rose pink"
+        }
+      ]
+    },
+    {
+      "id": "washed_denim",
+      "category": "tone",
+      "name": "Washed Denim Tones",
+      "name_ja": "ウォッシュドデニム",
+      "description_ja": "「ウォッシュドデニム」をイメージし、濃紺とくすんだブルーを基調にした調和した配色。",
+      "tags": [
+        "muted",
+        "blue",
+        "denim"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#8CAFC9",
+          "prompt": "dusty blue"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        }
+      ]
+    },
+    {
+      "id": "high_saturation",
+      "category": "tone",
+      "name": "High Saturation",
+      "name_ja": "高彩度カラー",
+      "description_ja": "「高彩度カラー」をイメージし、スカーレットと鮮烈なコバルトブルーを基調にした鮮やかな配色。",
+      "tags": [
+        "vibrant",
+        "bold",
+        "pop"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#BDE65B",
+          "prompt": "lime green"
+        },
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        }
+      ]
+    },
+    {
+      "id": "acid_bright",
+      "category": "tone",
+      "name": "Acid Brights",
+      "name_ja": "アシッドブライト",
+      "description_ja": "「アシッドブライト」をイメージし、ネオンライムと蛍光フューシャを基調にした鮮やかな配色。",
+      "tags": [
+        "neon",
+        "acid",
+        "contrast"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#A2ED54",
+          "prompt": "neon acid green"
+        },
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#191D34",
+          "prompt": "blue black"
+        }
+      ]
+    },
+    {
+      "id": "fluorescent_candy",
+      "category": "tone",
+      "name": "Fluorescent Candy",
+      "name_ja": "蛍光キャンディー",
+      "description_ja": "「蛍光キャンディー」をイメージし、蛍光フューシャとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "neon",
+        "cute",
+        "pop"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        }
+      ]
+    },
+    {
+      "id": "light_luminous",
+      "category": "tone",
+      "name": "Luminous Light Tones",
+      "name_ja": "発光する淡色",
+      "description_ja": "「発光する淡色」をイメージし、淡いシアンとレモンクリームを基調にした柔らかな配色。",
+      "tags": [
+        "light",
+        "luminous",
+        "pastel"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#D2FBF8",
+          "prompt": "very pale cyan"
+        },
+        {
+          "hex": "#FFF5C7",
+          "prompt": "lemon cream"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        }
+      ]
+    },
+    {
+      "id": "navy_depth",
+      "category": "tone",
+      "name": "Deep Navy Tones",
+      "name_ja": "濃紺の階調",
+      "description_ja": "「濃紺の階調」をイメージし、黒に近い青と濃紺を基調にした重厚な配色。",
+      "tags": [
+        "dark",
+        "navy",
+        "monochrome"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#101A22",
+          "prompt": "almost black blue"
+        },
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#657C96",
+          "prompt": "blue gray"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        }
+      ]
+    },
+    {
+      "id": "midnight_ink",
+      "category": "tone",
+      "name": "Midnight Ink",
+      "name_ja": "漆黒のインク色",
+      "description_ja": "「漆黒のインク色」をイメージし、ほぼ黒と墨色のネイビーを基調にした重厚な配色。",
+      "tags": [
+        "dark",
+        "monochrome",
+        "ink"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        }
+      ]
+    },
+    {
+      "id": "warm_earth_tones",
+      "category": "tone",
+      "name": "Warm Earth Tones",
+      "name_ja": "温かなアースカラー",
+      "description_ja": "「温かなアースカラー」をイメージし、エスプレッソブラウンとテラコッタを基調にした調和した配色。",
+      "tags": [
+        "earthy",
+        "warm",
+        "natural"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#C4775B",
+          "prompt": "warm terracotta"
+        },
+        {
+          "hex": "#C7AD89",
+          "prompt": "sand beige"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "muted_florals",
+      "category": "tone",
+      "name": "Muted Florals",
+      "name_ja": "くすみフローラル",
+      "description_ja": "「くすみフローラル」をイメージし、ダスティローズとダスティモーヴを基調にした柔らかな配色。",
+      "tags": [
+        "muted",
+        "floral",
+        "soft"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#B18CAA",
+          "prompt": "dusty mauve"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "neutral_cream",
+      "category": "tone",
+      "name": "Neutral Cream",
+      "name_ja": "ニュートラルクリーム",
+      "description_ja": "「ニュートラルクリーム」をイメージし、ミルキーホワイトと柔らかなクリームを基調にした調和した配色。",
+      "tags": [
+        "neutral",
+        "cream",
+        "light"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        },
+        {
+          "hex": "#927F79",
+          "prompt": "warm taupe"
+        }
+      ]
+    },
+    {
+      "id": "greige_minimal",
+      "category": "tone",
+      "name": "Greige Minimal",
+      "name_ja": "グレージュミニマル",
+      "description_ja": "「グレージュミニマル」をイメージし、チャコールグレーとニュートラルグレーを基調にした調和した配色。",
+      "tags": [
+        "neutral",
+        "greige",
+        "minimal"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#92959A",
+          "prompt": "neutral gray"
+        },
+        {
+          "hex": "#927F79",
+          "prompt": "warm taupe"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "analog_film",
+      "category": "tone",
+      "name": "Analog Film Tones",
+      "name_ja": "アナログフィルム調",
+      "description_ja": "「アナログフィルム調」をイメージし、栗色とセージグリーンを基調にした調和した配色。",
+      "tags": [
+        "vintage",
+        "film",
+        "muted"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#74503E",
+          "prompt": "chestnut brown"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#8CAFC9",
+          "prompt": "dusty blue"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "sepia_vintage",
+      "category": "tone",
+      "name": "Vintage Sepia",
+      "name_ja": "セピアヴィンテージ",
+      "description_ja": "「セピアヴィンテージ」をイメージし、エスプレッソブラウンと古びたブロンズを基調にした調和した配色。",
+      "tags": [
+        "vintage",
+        "sepia",
+        "warm"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#B89D81",
+          "prompt": "milk tea beige"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "warm_gradient",
+      "category": "tone",
+      "name": "Warm Tonal Steps",
+      "name_ja": "暖色の階調",
+      "description_ja": "「暖色の階調」をイメージし、ワインレッドと錆色のオレンジを基調にした調和した配色。",
+      "tags": [
+        "warm",
+        "gradient",
+        "orange"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#AA583E",
+          "prompt": "burnt rust orange"
+        },
+        {
+          "hex": "#E9877D",
+          "prompt": "muted coral pink"
+        },
+        {
+          "hex": "#F5C99F",
+          "prompt": "pale apricot"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "cool_gradient",
+      "category": "tone",
+      "name": "Cool Tonal Steps",
+      "name_ja": "寒色の階調",
+      "description_ja": "「寒色の階調」をイメージし、墨色のネイビーとピーコックブルーを基調にした調和した配色。",
+      "tags": [
+        "cool",
+        "gradient",
+        "blue"
+      ],
+      "order": 260,
+      "colors": [
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#305A6A",
+          "prompt": "petrol blue"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "rose_monochrome",
+      "category": "tone",
+      "name": "Rose Monochrome",
+      "name_ja": "ローズの同系色",
+      "description_ja": "「ローズの同系色」をイメージし、ワインレッドとダスティローズを基調にした調和した配色。",
+      "tags": [
+        "monochrome",
+        "pink",
+        "rose"
+      ],
+      "order": 270,
+      "colors": [
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F8E7EC",
+          "prompt": "pale rose pink"
+        }
+      ]
+    },
+    {
+      "id": "blue_monochrome",
+      "category": "tone",
+      "name": "Blue Monochrome",
+      "name_ja": "ブルーの同系色",
+      "description_ja": "「ブルーの同系色」をイメージし、濃紺とセルリアンブルーを基調にした調和した配色。",
+      "tags": [
+        "monochrome",
+        "blue"
+      ],
+      "order": 280,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#308ECB",
+          "prompt": "cerulean blue"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#DFEDF5",
+          "prompt": "very pale blue"
+        }
+      ]
+    },
+    {
+      "id": "green_monochrome",
+      "category": "tone",
+      "name": "Green Monochrome",
+      "name_ja": "グリーンの同系色",
+      "description_ja": "「グリーンの同系色」をイメージし、フォレストグリーンとエメラルドグリーンを基調にした調和した配色。",
+      "tags": [
+        "monochrome",
+        "green"
+      ],
+      "order": 290,
+      "colors": [
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#20846D",
+          "prompt": "emerald green"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#E8FAEE",
+          "prompt": "mint white"
+        }
+      ]
+    },
+    {
+      "id": "warm_highkey",
+      "category": "tone",
+      "name": "Warm High-Key",
+      "name_ja": "暖色ハイキー",
+      "description_ja": "「暖色ハイキー」をイメージし、ミルキーホワイトと柔らかなクリームを基調にした調和した配色。",
+      "tags": [
+        "highkey",
+        "light",
+        "warm"
+      ],
+      "order": 300,
+      "colors": [
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#F5C99F",
+          "prompt": "pale apricot"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        }
+      ]
+    },
+    {
+      "id": "cool_highkey",
+      "category": "tone",
+      "name": "Cool High-Key",
+      "name_ja": "寒色ハイキー",
+      "description_ja": "「寒色ハイキー」をイメージし、ミルキーホワイトとアイスブルーを基調にした調和した配色。",
+      "tags": [
+        "highkey",
+        "light",
+        "cool"
+      ],
+      "order": 310,
+      "colors": [
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        }
+      ]
+    },
+    {
+      "id": "contrasty_duotone",
+      "category": "tone",
+      "name": "Contrasty Duotone",
+      "name_ja": "強い2色コントラスト",
+      "description_ja": "「強い2色コントラスト」をイメージし、ほぼ黒とレモンイエローを基調にした調和した配色。",
+      "tags": [
+        "duotone",
+        "contrast",
+        "bold"
+      ],
+      "order": 320,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        }
+      ]
+    },
+    {
+      "id": "near_black_accent",
+      "category": "tone",
+      "name": "Dark Accent",
+      "name_ja": "黒基調のアクセント",
+      "description_ja": "「黒基調のアクセント」をイメージし、ほぼ黒とスレートブルーを基調にした重厚な配色。",
+      "tags": [
+        "dark",
+        "contrast",
+        "accent"
+      ],
+      "order": 330,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        }
+      ]
+    },
+    {
+      "id": "metallic_luxe",
+      "category": "tone",
+      "name": "Metallic Luxe",
+      "name_ja": "メタリックラグジュアリー",
+      "description_ja": "「メタリックラグジュアリー」をイメージし、チャコールグレーと落ち着いた金色を基調にした重厚な配色。",
+      "tags": [
+        "metallic",
+        "luxury",
+        "dark"
+      ],
+      "order": 340,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "soft_duotone",
+      "category": "tone",
+      "name": "Soft Duotone",
+      "name_ja": "柔らかい2色配色",
+      "description_ja": "「柔らかい2色配色」をイメージし、セージグリーンとブラッシュピンクを基調にした柔らかな配色。",
+      "tags": [
+        "duotone",
+        "soft",
+        "pastel"
+      ],
+      "order": 350,
+      "colors": [
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        }
+      ]
+    },
+    {
+      "id": "sorbet_duotone",
+      "category": "tone",
+      "name": "Sorbet Duotone",
+      "name_ja": "ソルベの2色",
+      "description_ja": "ソルベの2色をイメージした2色配色。strawberry sorbet pinkとicy pastel blueを組み合わせたパレット。",
+      "tags": [
+        "pastel",
+        "sweet",
+        "soft"
+      ],
+      "order": 360,
+      "colors": [
+        {
+          "hex": "#F7A7BE",
+          "prompt": "strawberry sorbet pink"
+        },
+        {
+          "hex": "#9EDCEF",
+          "prompt": "icy pastel blue"
+        }
+      ]
+    },
+    {
+      "id": "milky_duotone",
+      "category": "tone",
+      "name": "Milky Duotone",
+      "name_ja": "ミルキーな2色",
+      "description_ja": "ミルキーな2色をイメージした2色配色。pale lavenderとcreamy peachを組み合わせたパレット。",
+      "tags": [
+        "milky",
+        "pastel",
+        "gentle"
+      ],
+      "order": 370,
+      "colors": [
+        {
+          "hex": "#E8D1F2",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FAEBD9",
+          "prompt": "creamy peach"
+        }
+      ]
+    },
+    {
+      "id": "neon_dual",
+      "category": "tone",
+      "name": "Neon Contrast",
+      "name_ja": "ネオンの対比",
+      "description_ja": "ネオンの対比をイメージした2色配色。neon magentaとelectric cyanを組み合わせたパレット。",
+      "tags": [
+        "neon",
+        "high",
+        "contrast",
+        "cyber"
+      ],
+      "order": 380,
+      "colors": [
+        {
+          "hex": "#F93BCB",
+          "prompt": "neon magenta"
+        },
+        {
+          "hex": "#32E6F4",
+          "prompt": "electric cyan"
+        }
+      ]
+    },
+    {
+      "id": "velvet_dual",
+      "category": "tone",
+      "name": "Velvet Duotone",
+      "name_ja": "ベルベットの2色",
+      "description_ja": "ベルベットの2色をイメージした2色配色。deep aubergine purpleとmuted roseを組み合わせたパレット。",
+      "tags": [
+        "deep",
+        "elegant",
+        "muted"
+      ],
+      "order": 390,
+      "colors": [
+        {
+          "hex": "#40274D",
+          "prompt": "deep aubergine purple"
+        },
+        {
+          "hex": "#C18B8B",
+          "prompt": "muted rose"
+        }
+      ]
+    },
+    {
+      "id": "dusty_double",
+      "category": "tone",
+      "name": "Dusty Duotone",
+      "name_ja": "ダスティな2色",
+      "description_ja": "ダスティな2色をイメージした2色配色。dusty blue tealとdusty pinkを組み合わせたパレット。",
+      "tags": [
+        "desaturated",
+        "muted",
+        "calm"
+      ],
+      "order": 400,
+      "colors": [
+        {
+          "hex": "#667985",
+          "prompt": "dusty blue teal"
+        },
+        {
+          "hex": "#C6A9AB",
+          "prompt": "dusty pink"
+        }
+      ]
+    },
+    {
+      "id": "earth_dual",
+      "category": "tone",
+      "name": "Earth Duotone",
+      "name_ja": "大地の2色",
+      "description_ja": "大地の2色をイメージした2色配色。earthy brownとmuted khaki beigeを組み合わせたパレット。",
+      "tags": [
+        "earthy",
+        "neutral",
+        "vintage"
+      ],
+      "order": 410,
+      "colors": [
+        {
+          "hex": "#84694E",
+          "prompt": "earthy brown"
+        },
+        {
+          "hex": "#C3BB93",
+          "prompt": "muted khaki beige"
+        }
+      ]
+    },
+    {
+      "id": "pink_on_black",
+      "category": "tone",
+      "name": "Pink on Black",
+      "name_ja": "黒に映えるピンク",
+      "description_ja": "黒に映えるピンクをイメージした2色配色。near blackとfluorescent pinkを組み合わせたパレット。",
+      "tags": [
+        "high",
+        "contrast",
+        "neon",
+        "pop"
+      ],
+      "order": 420,
+      "colors": [
+        {
+          "hex": "#11131A",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#FF4EAA",
+          "prompt": "fluorescent pink"
+        }
+      ]
+    },
+    {
+      "id": "midnight_metal",
+      "category": "tone",
+      "name": "Midnight Metal",
+      "name_ja": "真夜中の金属色",
+      "description_ja": "真夜中の金属色をイメージした2色配色。deep midnight blueとmetallic blue grayを組み合わせたパレット。",
+      "tags": [
+        "cool",
+        "dark",
+        "industrial"
+      ],
+      "order": 430,
+      "colors": [
+        {
+          "hex": "#162D40",
+          "prompt": "deep midnight blue"
+        },
+        {
+          "hex": "#9EB5BE",
+          "prompt": "metallic blue gray"
+        }
+      ]
+    },
+    {
+      "id": "moonlight",
+      "category": "theme",
+      "name": "Moonlight",
+      "name_ja": "月明かり",
+      "description_ja": "3色対応の検証用（仮データ）",
+      "tags": [
+        "night",
+        "mysterious"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#182540",
+          "prompt": "midnight blue"
+        },
+        {
+          "hex": "#7897BC",
+          "prompt": "silver blue"
+        },
+        {
+          "hex": "#E2E5EE",
+          "prompt": "pale silver"
+        }
+      ]
+    },
+    {
+      "id": "spring_garden",
+      "category": "theme",
+      "name": "Spring Garden",
+      "name_ja": "春の花園",
+      "description_ja": "若葉と花色で春の庭園の柔らかさを表現。",
+      "tags": [
+        "spring",
+        "flower",
+        "nature"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#7B9B7A",
+          "prompt": "fresh leaf green"
+        },
+        {
+          "hex": "#B7CF9B",
+          "prompt": "pale yellow green"
+        },
+        {
+          "hex": "#E8B4C4",
+          "prompt": "cherry blossom pink"
+        },
+        {
+          "hex": "#F5DBBC",
+          "prompt": "apricot cream"
+        },
+        {
+          "hex": "#FCF3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "autumn_forest",
+      "category": "theme",
+      "name": "Autumn Forest",
+      "name_ja": "紅葉の森",
+      "description_ja": "苔色・紅葉色・黄土色を組み合わせた秋の景色。",
+      "tags": [
+        "autumn",
+        "forest",
+        "warm"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#4B4934",
+          "prompt": "deep olive"
+        },
+        {
+          "hex": "#A24D32",
+          "prompt": "maple red"
+        },
+        {
+          "hex": "#CF9949",
+          "prompt": "autumn ochre"
+        },
+        {
+          "hex": "#E8D5B1",
+          "prompt": "pale cream"
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk_city",
+      "category": "theme",
+      "name": "Cyberpunk City",
+      "name_ja": "サイバーパンク都市",
+      "description_ja": "暗い都市にシアン・マゼンタ・紫のネオンが映える配色。",
+      "tags": [
+        "cyberpunk",
+        "neon",
+        "sci-fi"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#111528",
+          "prompt": "ink navy"
+        },
+        {
+          "hex": "#00C8DE",
+          "prompt": "neon cyan"
+        },
+        {
+          "hex": "#EF3FB6",
+          "prompt": "neon magenta"
+        },
+        {
+          "hex": "#6C3DD1",
+          "prompt": "electric violet"
+        },
+        {
+          "hex": "#F2BC48",
+          "prompt": "amber yellow"
+        }
+      ]
+    },
+    {
+      "id": "gothic_cathedral",
+      "category": "theme",
+      "name": "Gothic Cathedral",
+      "name_ja": "ゴシック聖堂",
+      "description_ja": "煤けた石とワイン色、古い金属色の重厚な配色。",
+      "tags": [
+        "gothic",
+        "cathedral",
+        "dark"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#16151D",
+          "prompt": "midnight charcoal"
+        },
+        {
+          "hex": "#58324A",
+          "prompt": "wine purple"
+        },
+        {
+          "hex": "#C6AF87",
+          "prompt": "antique gold"
+        }
+      ]
+    },
+    {
+      "id": "postapocalyptic_dust",
+      "category": "theme",
+      "name": "Post-apocalyptic Dust",
+      "name_ja": "終末の荒野",
+      "description_ja": "砂埃・風化した金属・枯れた植物の退色した配色。",
+      "tags": [
+        "post-apocalyptic",
+        "dusty",
+        "ruins"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#343937",
+          "prompt": "weathered charcoal"
+        },
+        {
+          "hex": "#6B7765",
+          "prompt": "dusty sage green"
+        },
+        {
+          "hex": "#BA9876",
+          "prompt": "dry earth brown"
+        },
+        {
+          "hex": "#DFD2B8",
+          "prompt": "bleached beige"
+        }
+      ]
+    },
+    {
+      "id": "underwater_ruins",
+      "category": "theme",
+      "name": "Underwater Ruins",
+      "name_ja": "海底遺跡",
+      "description_ja": "深海色から濁った青緑へと移る冷たい配色。",
+      "tags": [
+        "underwater",
+        "ruins",
+        "mysterious"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#10283C",
+          "prompt": "deep ocean blue"
+        },
+        {
+          "hex": "#176B83",
+          "prompt": "teal blue"
+        },
+        {
+          "hex": "#67ABB0",
+          "prompt": "sea-glass turquoise"
+        },
+        {
+          "hex": "#B7D3CD",
+          "prompt": "misty seafoam"
+        }
+      ]
+    },
+    {
+      "id": "steampunk_brass",
+      "category": "theme",
+      "name": "Steampunk Brass",
+      "name_ja": "蒸気機関と真鍮",
+      "description_ja": "煤けた金属、銅、真鍮を中心とした産業時代風。",
+      "tags": [
+        "steampunk",
+        "metal",
+        "vintage"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#2B2624",
+          "prompt": "soot brown"
+        },
+        {
+          "hex": "#70503A",
+          "prompt": "weathered copper"
+        },
+        {
+          "hex": "#B18B52",
+          "prompt": "aged brass"
+        },
+        {
+          "hex": "#D6BE8E",
+          "prompt": "dull gold"
+        },
+        {
+          "hex": "#A9A79B",
+          "prompt": "smoky gray"
+        }
+      ]
+    },
+    {
+      "id": "enchanted_forest",
+      "category": "theme",
+      "name": "Enchanted Forest",
+      "name_ja": "魔法の森",
+      "description_ja": "「魔法の森」をイメージし、フォレストグリーンとモスグリーンを基調にした調和した配色。",
+      "tags": [
+        "fantasy",
+        "forest",
+        "magical"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#516B4C",
+          "prompt": "moss green"
+        },
+        {
+          "hex": "#4DA58A",
+          "prompt": "jade green"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        }
+      ]
+    },
+    {
+      "id": "alien_desert",
+      "category": "theme",
+      "name": "Alien Desert",
+      "name_ja": "異星の砂漠",
+      "description_ja": "「異星の砂漠」をイメージし、黒紫と濃いプラムを基調にした調和した配色。",
+      "tags": [
+        "sci-fi",
+        "desert",
+        "otherworldly"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#2D2029",
+          "prompt": "black plum"
+        },
+        {
+          "hex": "#4B294C",
+          "prompt": "deep plum purple"
+        },
+        {
+          "hex": "#B99877",
+          "prompt": "desert sand"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        }
+      ]
+    },
+    {
+      "id": "royal_palace",
+      "category": "theme",
+      "name": "Royal Palace",
+      "name_ja": "王宮の舞踏会",
+      "description_ja": "「王宮の舞踏会」をイメージし、ワインレッドとロイヤルブルーを基調にした調和した配色。",
+      "tags": [
+        "fantasy",
+        "royal",
+        "luxury"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#25428C",
+          "prompt": "royal blue"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "arctic_lab",
+      "category": "theme",
+      "name": "Arctic Laboratory",
+      "name_ja": "極地の研究施設",
+      "description_ja": "「極地の研究施設」をイメージし、黒に近い青とスレートブルーを基調にした調和した配色。",
+      "tags": [
+        "sci-fi",
+        "cold",
+        "industrial"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#101A22",
+          "prompt": "almost black blue"
+        },
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "retro_arcade",
+      "category": "theme",
+      "name": "Retro Arcade",
+      "name_ja": "レトロゲームセンター",
+      "description_ja": "「レトロゲームセンター」をイメージし、青みがかった黒とマゼンタを基調にした鮮やかな配色。",
+      "tags": [
+        "retro",
+        "arcade",
+        "pop"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#191D34",
+          "prompt": "blue black"
+        },
+        {
+          "hex": "#DE33A1",
+          "prompt": "vivid magenta"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        }
+      ]
+    },
+    {
+      "id": "forgotten_library",
+      "category": "theme",
+      "name": "Forgotten Library",
+      "name_ja": "忘れられた図書館",
+      "description_ja": "「忘れられた図書館」をイメージし、エスプレッソブラウンと古びたブロンズを基調にした調和した配色。",
+      "tags": [
+        "mysterious",
+        "vintage",
+        "warm"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#414A36",
+          "prompt": "dark olive green"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "cloud_kingdom",
+      "category": "theme",
+      "name": "Cloud Kingdom",
+      "name_ja": "雲上の王国",
+      "description_ja": "「雲上の王国」をイメージし、パウダーブルーとパールホワイトを基調にした調和した配色。",
+      "tags": [
+        "fantasy",
+        "dreamy",
+        "light"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "fairy_glade_duo",
+      "category": "theme",
+      "name": "Fairy Glade",
+      "name_ja": "妖精の森",
+      "description_ja": "妖精の森をイメージした2色配色。leaf greenとfairy lavenderを組み合わせたパレット。",
+      "tags": [
+        "fairy",
+        "fantasy",
+        "woodland"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#69AC82",
+          "prompt": "leaf green"
+        },
+        {
+          "hex": "#E8D5FF",
+          "prompt": "fairy lavender"
+        }
+      ]
+    },
+    {
+      "id": "retro_diner_duo",
+      "category": "theme",
+      "name": "Retro Diner",
+      "name_ja": "レトロダイナー",
+      "description_ja": "レトロダイナーをイメージした2色配色。retro coral redとretro mint greenを組み合わせたパレット。",
+      "tags": [
+        "retro",
+        "pop",
+        "diner"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#F15D69",
+          "prompt": "retro coral red"
+        },
+        {
+          "hex": "#9DE5D6",
+          "prompt": "retro mint green"
+        }
+      ]
+    },
+    {
+      "id": "pixel_arcade_duo",
+      "category": "theme",
+      "name": "Pixel Arcade",
+      "name_ja": "ピクセルアーケード",
+      "description_ja": "ピクセルアーケードをイメージした2色配色。midnight purpleとarcade neon greenを組み合わせたパレット。",
+      "tags": [
+        "retro",
+        "game",
+        "neon"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#14102D",
+          "prompt": "midnight purple"
+        },
+        {
+          "hex": "#47F77D",
+          "prompt": "arcade neon green"
+        }
+      ]
+    },
+    {
+      "id": "moonlit_ocean_duo",
+      "category": "theme",
+      "name": "Moonlit Ocean",
+      "name_ja": "月夜の海",
+      "description_ja": "月夜の海をイメージした2色配色。deep ocean blueとmoonlit pale cyanを組み合わせたパレット。",
+      "tags": [
+        "ocean",
+        "moonlight",
+        "serene"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#0B2C4D",
+          "prompt": "deep ocean blue"
+        },
+        {
+          "hex": "#A6D8E8",
+          "prompt": "moonlit pale cyan"
+        }
+      ]
+    },
+    {
+      "id": "spring_dawn",
+      "category": "season_time",
+      "name": "Spring Dawn",
+      "name_ja": "春の夜明け",
+      "description_ja": "「春の夜明け」をイメージし、スレートブルーと夕暮れのピンクを基調にした柔らかな配色。",
+      "tags": [
+        "spring",
+        "dawn",
+        "pastel"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#CC91A6",
+          "prompt": "dusky pink"
+        },
+        {
+          "hex": "#F3B99E",
+          "prompt": "soft peach pink"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "spring_morning",
+      "category": "season_time",
+      "name": "Spring Morning",
+      "name_ja": "春の朝",
+      "description_ja": "「春の朝」をイメージし、ごく淡い青とブラッシュピンクを基調にした調和した配色。",
+      "tags": [
+        "spring",
+        "morning",
+        "fresh"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#DFEDF5",
+          "prompt": "very pale blue"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#A4DDA2",
+          "prompt": "spring green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "spring_afternoon",
+      "category": "season_time",
+      "name": "Spring Afternoon",
+      "name_ja": "春の昼下がり",
+      "description_ja": "「春の昼下がり」をイメージし、スカイブルーと鮮やかな若草色を基調にした調和した配色。",
+      "tags": [
+        "spring",
+        "afternoon",
+        "bright"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#4BA969",
+          "prompt": "fresh grass green"
+        },
+        {
+          "hex": "#F6DF8C",
+          "prompt": "butter yellow"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "spring_night",
+      "category": "season_time",
+      "name": "Spring Night",
+      "name_ja": "春の夜",
+      "description_ja": "「春の夜」をイメージし、濃紺と濃いプラムを基調にした調和した配色。",
+      "tags": [
+        "spring",
+        "night",
+        "romantic"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#4B294C",
+          "prompt": "deep plum purple"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        }
+      ]
+    },
+    {
+      "id": "summer_dawn",
+      "category": "season_time",
+      "name": "Summer Dawn",
+      "name_ja": "夏の夜明け",
+      "description_ja": "「夏の夜明け」をイメージし、スレートブルーと朝焼けの橙を基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "dawn",
+        "warm"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#F8A579",
+          "prompt": "warm sunrise orange"
+        },
+        {
+          "hex": "#F5C99F",
+          "prompt": "pale apricot"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        }
+      ]
+    },
+    {
+      "id": "summer_morning",
+      "category": "season_time",
+      "name": "Summer Morning",
+      "name_ja": "夏の朝",
+      "description_ja": "「夏の朝」をイメージし、セルリアンブルーとアクアブルーを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "morning",
+        "fresh"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#308ECB",
+          "prompt": "cerulean blue"
+        },
+        {
+          "hex": "#68CCD3",
+          "prompt": "aqua blue"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "summer_afternoon",
+      "category": "season_time",
+      "name": "Summer Afternoon",
+      "name_ja": "夏の昼",
+      "description_ja": "「夏の昼」をイメージし、鮮烈なコバルトブルーとスカイブルーを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "noon",
+        "bright"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#FFBB4D",
+          "prompt": "mango yellow"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "summer_night",
+      "category": "season_time",
+      "name": "Summer Night",
+      "name_ja": "夏の夜",
+      "description_ja": "「夏の夜」をイメージし、深い夜の紺とピーコックブルーを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "night",
+        "deep"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#305A6A",
+          "prompt": "petrol blue"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        }
+      ]
+    },
+    {
+      "id": "autumn_dawn",
+      "category": "season_time",
+      "name": "Autumn Dawn",
+      "name_ja": "秋の夜明け",
+      "description_ja": "「秋の夜明け」をイメージし、スレートブルーとダスティローズを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "dawn",
+        "muted"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#AA583E",
+          "prompt": "burnt rust orange"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        }
+      ]
+    },
+    {
+      "id": "autumn_morning",
+      "category": "season_time",
+      "name": "Autumn Morning",
+      "name_ja": "秋の朝",
+      "description_ja": "「秋の朝」をイメージし、フォレストグリーンとオリーブグリーンを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "morning",
+        "earthy"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#78855A",
+          "prompt": "olive green"
+        },
+        {
+          "hex": "#C4775B",
+          "prompt": "warm terracotta"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "autumn_afternoon",
+      "category": "season_time",
+      "name": "Autumn Afternoon",
+      "name_ja": "秋の午後",
+      "description_ja": "「秋の午後」をイメージし、ダークオリーブとジンジャーオレンジを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "afternoon",
+        "golden"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#414A36",
+          "prompt": "dark olive green"
+        },
+        {
+          "hex": "#C87A3E",
+          "prompt": "warm ginger orange"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "autumn_night",
+      "category": "season_time",
+      "name": "Autumn Night",
+      "name_ja": "秋の夜",
+      "description_ja": "「秋の夜」をイメージし、深いワイン色と濃いプラムを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "night",
+        "cozy"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#4D1624",
+          "prompt": "dark wine red"
+        },
+        {
+          "hex": "#4B294C",
+          "prompt": "deep plum purple"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "winter_dawn",
+      "category": "season_time",
+      "name": "Winter Dawn",
+      "name_ja": "冬の夜明け",
+      "description_ja": "「冬の夜明け」をイメージし、墨色のネイビーと氷河色を基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "dawn",
+        "cold"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#8DBDD0",
+          "prompt": "glacier blue"
+        },
+        {
+          "hex": "#DAE3F2",
+          "prompt": "frosty blue white"
+        },
+        {
+          "hex": "#F8E7EC",
+          "prompt": "pale rose pink"
+        }
+      ]
+    },
+    {
+      "id": "winter_morning",
+      "category": "season_time",
+      "name": "Winter Morning",
+      "name_ja": "冬の朝",
+      "description_ja": "「冬の朝」をイメージし、ブルーグレーとアイスブルーを基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "morning",
+        "cold"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#657C96",
+          "prompt": "blue gray"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#ECF5F8",
+          "prompt": "icy white"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "winter_afternoon",
+      "category": "season_time",
+      "name": "Winter Afternoon",
+      "name_ja": "冬の昼",
+      "description_ja": "「冬の昼」をイメージし、ロイヤルブルーとスカイブルーを基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "afternoon",
+        "clear"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#25428C",
+          "prompt": "royal blue"
+        },
+        {
+          "hex": "#75BCE9",
+          "prompt": "sky blue"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "winter_night",
+      "category": "season_time",
+      "name": "Winter Night",
+      "name_ja": "冬の夜",
+      "description_ja": "「冬の夜」をイメージし、黒に近い青と濃紺を基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "night",
+        "quiet"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#101A22",
+          "prompt": "almost black blue"
+        },
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#DAE3F2",
+          "prompt": "frosty blue white"
+        }
+      ]
+    },
+    {
+      "id": "spring_rain",
+      "category": "season_time",
+      "name": "Spring Rain",
+      "name_ja": "春雨の庭",
+      "description_ja": "「春雨の庭」をイメージし、ブルーグレーとセージグリーンを基調にした柔らかな配色。",
+      "tags": [
+        "spring",
+        "rain",
+        "soft"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#657C96",
+          "prompt": "blue gray"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "spring_twilight",
+      "category": "season_time",
+      "name": "Spring Twilight",
+      "name_ja": "春の薄暮",
+      "description_ja": "「春の薄暮」をイメージし、スレートブルーとダスティモーヴを基調にした調和した配色。",
+      "tags": [
+        "spring",
+        "twilight",
+        "romantic"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#B18CAA",
+          "prompt": "dusty mauve"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "cherry_blossom_night",
+      "category": "season_time",
+      "name": "Cherry Blossom Night",
+      "name_ja": "夜桜",
+      "description_ja": "「夜桜」をイメージし、深い夜の紺とワインレッドを基調にした調和した配色。",
+      "tags": [
+        "spring",
+        "night",
+        "sakura"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F8E7EC",
+          "prompt": "pale rose pink"
+        }
+      ]
+    },
+    {
+      "id": "summer_beach_noon",
+      "category": "season_time",
+      "name": "Beach at Noon",
+      "name_ja": "真昼の浜辺",
+      "description_ja": "「真昼の浜辺」をイメージし、オーシャンブルーとターコイズブルーを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "beach",
+        "noon"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#116D9B",
+          "prompt": "ocean blue"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        },
+        {
+          "hex": "#C7AD89",
+          "prompt": "sand beige"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "summer_festival_dusk",
+      "category": "season_time",
+      "name": "Summer Festival Dusk",
+      "name_ja": "夏祭りの夕暮れ",
+      "description_ja": "「夏祭りの夕暮れ」をイメージし、濃紺と朱色を基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "festival",
+        "dusk"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#DC513F",
+          "prompt": "vermilion red"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#F5C99F",
+          "prompt": "pale apricot"
+        }
+      ]
+    },
+    {
+      "id": "summer_tropical_twilight",
+      "category": "season_time",
+      "name": "Tropical Twilight",
+      "name_ja": "南国の夕凪",
+      "description_ja": "「南国の夕凪」をイメージし、ディープティールとくすんだコーラルを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "tropical",
+        "twilight"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#1D7480",
+          "prompt": "deep teal"
+        },
+        {
+          "hex": "#E9877D",
+          "prompt": "muted coral pink"
+        },
+        {
+          "hex": "#F8B68C",
+          "prompt": "melon peach"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        }
+      ]
+    },
+    {
+      "id": "summer_thunderstorm",
+      "category": "season_time",
+      "name": "Summer Thunderstorm",
+      "name_ja": "夏の夕立",
+      "description_ja": "「夏の夕立」をイメージし、墨色のネイビーと嵐のブルーグレーを基調にした調和した配色。",
+      "tags": [
+        "summer",
+        "storm",
+        "rain"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#4B6574",
+          "prompt": "stormy blue gray"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#F8A579",
+          "prompt": "warm sunrise orange"
+        }
+      ]
+    },
+    {
+      "id": "autumn_crisp_morning",
+      "category": "season_time",
+      "name": "Crisp Autumn Morning",
+      "name_ja": "秋晴れの朝",
+      "description_ja": "「秋晴れの朝」をイメージし、スレートブルーとオリーブグリーンを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "morning",
+        "clear"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#78855A",
+          "prompt": "olive green"
+        },
+        {
+          "hex": "#CB9560",
+          "prompt": "caramel brown"
+        },
+        {
+          "hex": "#F9F2C4",
+          "prompt": "pastel yellow"
+        }
+      ]
+    },
+    {
+      "id": "autumn_rain_afternoon",
+      "category": "season_time",
+      "name": "Autumn Rainy Afternoon",
+      "name_ja": "秋雨の午後",
+      "description_ja": "「秋雨の午後」をイメージし、スレートグレーとカーキブラウンを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "rain",
+        "afternoon"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#46525C",
+          "prompt": "slate gray"
+        },
+        {
+          "hex": "#928569",
+          "prompt": "khaki brown"
+        },
+        {
+          "hex": "#C7AD89",
+          "prompt": "sand beige"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "autumn_starry_night",
+      "category": "season_time",
+      "name": "Autumn Starry Night",
+      "name_ja": "秋の星月夜",
+      "description_ja": "「秋の星月夜」をイメージし、深い夜の紺とロイヤルブルーを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "night",
+        "stars"
+      ],
+      "order": 260,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#25428C",
+          "prompt": "royal blue"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "winter_clear_sunrise",
+      "category": "season_time",
+      "name": "Winter Clear Sunrise",
+      "name_ja": "冬の澄んだ朝焼け",
+      "description_ja": "「冬の澄んだ朝焼け」をイメージし、ブルーグレーと氷河色を基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "sunrise",
+        "cold"
+      ],
+      "order": 270,
+      "colors": [
+        {
+          "hex": "#657C96",
+          "prompt": "blue gray"
+        },
+        {
+          "hex": "#8DBDD0",
+          "prompt": "glacier blue"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F5C99F",
+          "prompt": "pale apricot"
+        }
+      ]
+    },
+    {
+      "id": "winter_snow_dusk",
+      "category": "season_time",
+      "name": "Snowfall at Dusk",
+      "name_ja": "雪暮れ",
+      "description_ja": "「雪暮れ」をイメージし、濃紺とスモーキーラベンダーを基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "snow",
+        "dusk"
+      ],
+      "order": 280,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#806E9C",
+          "prompt": "smoky lavender"
+        },
+        {
+          "hex": "#DAE3F2",
+          "prompt": "frosty blue white"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "winter_midnight",
+      "category": "season_time",
+      "name": "Winter Midnight",
+      "name_ja": "真冬の深夜",
+      "description_ja": "「真冬の深夜」をイメージし、黒に近い青とピーコックブルーを基調にした重厚な配色。",
+      "tags": [
+        "winter",
+        "midnight",
+        "dark"
+      ],
+      "order": 290,
+      "colors": [
+        {
+          "hex": "#101A22",
+          "prompt": "almost black blue"
+        },
+        {
+          "hex": "#305A6A",
+          "prompt": "petrol blue"
+        },
+        {
+          "hex": "#8DBDD0",
+          "prompt": "glacier blue"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "winter_golden_hour",
+      "category": "season_time",
+      "name": "Winter Golden Hour",
+      "name_ja": "冬の斜陽",
+      "description_ja": "「冬の斜陽」をイメージし、スレートブルーと落ち着いた金色を基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "golden_hour",
+        "warm"
+      ],
+      "order": 300,
+      "colors": [
+        {
+          "hex": "#3A4C64",
+          "prompt": "slate blue"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#CB9560",
+          "prompt": "caramel brown"
+        },
+        {
+          "hex": "#ECF5F8",
+          "prompt": "icy white"
+        }
+      ]
+    },
+    {
+      "id": "spring_picnic_duo",
+      "category": "season_time",
+      "name": "Spring Picnic",
+      "name_ja": "春のピクニック",
+      "description_ja": "春のピクニックをイメージした2色配色。cherry blossom pinkとfresh leaf greenを組み合わせたパレット。",
+      "tags": [
+        "spring",
+        "daytime",
+        "picnic"
+      ],
+      "order": 310,
+      "colors": [
+        {
+          "hex": "#F6C5D5",
+          "prompt": "cherry blossom pink"
+        },
+        {
+          "hex": "#A7D6A0",
+          "prompt": "fresh leaf green"
+        }
+      ]
+    },
+    {
+      "id": "summer_poolside_duo",
+      "category": "season_time",
+      "name": "Summer Poolside",
+      "name_ja": "夏のプールサイド",
+      "description_ja": "夏のプールサイドをイメージした2色配色。poolside aquaとsunny yellowを組み合わせたパレット。",
+      "tags": [
+        "summer",
+        "sunny",
+        "fresh"
+      ],
+      "order": 320,
+      "colors": [
+        {
+          "hex": "#07B9DA",
+          "prompt": "poolside aqua"
+        },
+        {
+          "hex": "#FFDB4F",
+          "prompt": "sunny yellow"
+        }
+      ]
+    },
+    {
+      "id": "summer_midnight_duo",
+      "category": "season_time",
+      "name": "Summer Midnight",
+      "name_ja": "夏の真夜中",
+      "description_ja": "夏の真夜中をイメージした2色配色。midnight navyとfestival lantern goldを組み合わせたパレット。",
+      "tags": [
+        "summer",
+        "night",
+        "festival"
+      ],
+      "order": 330,
+      "colors": [
+        {
+          "hex": "#0D1B3E",
+          "prompt": "midnight navy"
+        },
+        {
+          "hex": "#F3BA59",
+          "prompt": "festival lantern gold"
+        }
+      ]
+    },
+    {
+      "id": "autumn_coffee_duo",
+      "category": "season_time",
+      "name": "Autumn Coffee",
+      "name_ja": "秋のコーヒー",
+      "description_ja": "秋のコーヒーをイメージした2色配色。roasted coffee brownとcaramel beigeを組み合わせたパレット。",
+      "tags": [
+        "autumn",
+        "cozy",
+        "warm"
+      ],
+      "order": 340,
+      "colors": [
+        {
+          "hex": "#70452D",
+          "prompt": "roasted coffee brown"
+        },
+        {
+          "hex": "#DFAE73",
+          "prompt": "caramel beige"
+        }
+      ]
+    },
+    {
+      "id": "winter_starlight_duo",
+      "category": "season_time",
+      "name": "Winter Starlight",
+      "name_ja": "冬の星明かり",
+      "description_ja": "冬の星明かりをイメージした2色配色。winter indigoとfrosty whiteを組み合わせたパレット。",
+      "tags": [
+        "winter",
+        "night",
+        "cool"
+      ],
+      "order": 350,
+      "colors": [
+        {
+          "hex": "#1E315E",
+          "prompt": "winter indigo"
+        },
+        {
+          "hex": "#E6F0FF",
+          "prompt": "frosty white"
+        }
+      ]
+    },
+    {
+      "id": "christmas_classic",
+      "category": "event",
+      "name": "Classic Christmas",
+      "name_ja": "王道クリスマス",
+      "description_ja": "「王道クリスマス」をイメージし、フォレストグリーンと鮮やかな赤を基調にした調和した配色。",
+      "tags": [
+        "christmas",
+        "holiday",
+        "classic"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#ED3D4E",
+          "prompt": "vibrant red"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "christmas_pastel",
+      "category": "event",
+      "name": "Pastel Christmas",
+      "name_ja": "パステルクリスマス",
+      "description_ja": "「パステルクリスマス」をイメージし、パステルミントとベビーピンクを基調にした柔らかな配色。",
+      "tags": [
+        "christmas",
+        "holiday",
+        "cute",
+        "pastel"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "christmas_night",
+      "category": "event",
+      "name": "Christmas Eve Night",
+      "name_ja": "聖夜の灯り",
+      "description_ja": "「聖夜の灯り」をイメージし、深い夜の紺とワインレッドを基調にした調和した配色。",
+      "tags": [
+        "christmas",
+        "night",
+        "cozy"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "halloween_classic",
+      "category": "event",
+      "name": "Classic Halloween",
+      "name_ja": "王道ハロウィン",
+      "description_ja": "「王道ハロウィン」をイメージし、ほぼ黒とタンジェリンオレンジを基調にした調和した配色。",
+      "tags": [
+        "halloween",
+        "horror",
+        "autumn"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#5D328B",
+          "prompt": "deep purple"
+        },
+        {
+          "hex": "#BDE65B",
+          "prompt": "lime green"
+        }
+      ]
+    },
+    {
+      "id": "halloween_cute",
+      "category": "event",
+      "name": "Cute Halloween",
+      "name_ja": "ゆるかわハロウィン",
+      "description_ja": "「ゆるかわハロウィン」をイメージし、柔らかなライラックとソフトピーチを基調にした柔らかな配色。",
+      "tags": [
+        "halloween",
+        "cute",
+        "pastel"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#F3B99E",
+          "prompt": "soft peach pink"
+        },
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        }
+      ]
+    },
+    {
+      "id": "halloween_gothic",
+      "category": "event",
+      "name": "Gothic Halloween",
+      "name_ja": "ゴシックハロウィン",
+      "description_ja": "「ゴシックハロウィン」をイメージし、黒紫と深いワイン色を基調にした重厚な配色。",
+      "tags": [
+        "halloween",
+        "gothic",
+        "dark"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#2D2029",
+          "prompt": "black plum"
+        },
+        {
+          "hex": "#4D1624",
+          "prompt": "dark wine red"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "new_year_japan",
+      "category": "event",
+      "name": "Japanese New Year",
+      "name_ja": "お正月",
+      "description_ja": "「お正月」をイメージし、朱色と淡い金を基調にした調和した配色。",
+      "tags": [
+        "newyear",
+        "japanese",
+        "traditional"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#DC513F",
+          "prompt": "vermilion red"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        },
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        }
+      ]
+    },
+    {
+      "id": "new_year_fireworks",
+      "category": "event",
+      "name": "New Year's Countdown",
+      "name_ja": "年越しカウントダウン",
+      "description_ja": "「年越しカウントダウン」をイメージし、深い夜の紺と落ち着いた金色を基調にした調和した配色。",
+      "tags": [
+        "newyear",
+        "night",
+        "festival"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        }
+      ]
+    },
+    {
+      "id": "valentines_sweet",
+      "category": "event",
+      "name": "Sweet Valentine's Day",
+      "name_ja": "甘いバレンタイン",
+      "description_ja": "「甘いバレンタイン」をイメージし、いちごミルク色とチョコレートブラウンを基調にした調和した配色。",
+      "tags": [
+        "valentines",
+        "cute",
+        "romantic"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#583A38",
+          "prompt": "chocolate brown"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "valentines_classic",
+      "category": "event",
+      "name": "Classic Valentine's Day",
+      "name_ja": "大人のバレンタイン",
+      "description_ja": "「大人のバレンタイン」をイメージし、ワインレッドとダスティローズを基調にした調和した配色。",
+      "tags": [
+        "valentines",
+        "romantic",
+        "elegant"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "white_day",
+      "category": "event",
+      "name": "White Day Sweets",
+      "name_ja": "ホワイトデー",
+      "description_ja": "「ホワイトデー」をイメージし、パウダーブルーと淡いラベンダーを基調にした柔らかな配色。",
+      "tags": [
+        "whiteday",
+        "cute",
+        "pastel"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#B7D9E8",
+          "prompt": "powder blue"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "easter_pastel",
+      "category": "event",
+      "name": "Easter Eggs",
+      "name_ja": "イースターの彩り",
+      "description_ja": "「イースターの彩り」をイメージし、パステルミントとレモンクリームを基調にした柔らかな配色。",
+      "tags": [
+        "easter",
+        "spring",
+        "pastel"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#FFF5C7",
+          "prompt": "lemon cream"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        }
+      ]
+    },
+    {
+      "id": "star_festival",
+      "category": "event",
+      "name": "Star Festival",
+      "name_ja": "七夕の星空",
+      "description_ja": "「七夕の星空」をイメージし、深い夜の紺とロイヤルブルーを基調にした調和した配色。",
+      "tags": [
+        "tanabata",
+        "japanese",
+        "summer",
+        "night"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#25428C",
+          "prompt": "royal blue"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        }
+      ]
+    },
+    {
+      "id": "summer_fireworks",
+      "category": "event",
+      "name": "Summer Fireworks",
+      "name_ja": "花火大会",
+      "description_ja": "「花火大会」をイメージし、深い夜の紺とスカーレットを基調にした調和した配色。",
+      "tags": [
+        "festival",
+        "summer",
+        "night"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#10172B",
+          "prompt": "midnight navy blue"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#F9CF74",
+          "prompt": "golden yellow"
+        }
+      ]
+    },
+    {
+      "id": "mid_autumn_moon",
+      "category": "event",
+      "name": "Mid-Autumn Moon",
+      "name_ja": "中秋の名月",
+      "description_ja": "「中秋の名月」をイメージし、濃紺と古びたブロンズを基調にした調和した配色。",
+      "tags": [
+        "autumn",
+        "moon",
+        "festival"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving_harvest",
+      "category": "event",
+      "name": "Harvest Thanksgiving",
+      "name_ja": "感謝祭の実り",
+      "description_ja": "「感謝祭の実り」をイメージし、ダークオリーブと錆色のオレンジを基調にした調和した配色。",
+      "tags": [
+        "thanksgiving",
+        "autumn",
+        "harvest"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#414A36",
+          "prompt": "dark olive green"
+        },
+        {
+          "hex": "#AA583E",
+          "prompt": "burnt rust orange"
+        },
+        {
+          "hex": "#C59B38",
+          "prompt": "mustard yellow"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "birthday_candy",
+      "category": "event",
+      "name": "Birthday Party",
+      "name_ja": "お誕生日パーティー",
+      "description_ja": "「お誕生日パーティー」をイメージし、バブルガムピンクとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "birthday",
+        "cute",
+        "pop"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#24B9C3",
+          "prompt": "turquoise blue"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "wedding_blush",
+      "category": "event",
+      "name": "Blush Wedding",
+      "name_ja": "ピンクのウェディング",
+      "description_ja": "「ピンクのウェディング」をイメージし、ダスティローズとブラッシュピンクを基調にした調和した配色。",
+      "tags": [
+        "wedding",
+        "romantic",
+        "elegant"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "graduation_bouquet",
+      "category": "event",
+      "name": "Graduation Bouquet",
+      "name_ja": "卒業の日の花束",
+      "description_ja": "「卒業の日の花束」をイメージし、濃紺とブラッシュピンクを基調にした調和した配色。",
+      "tags": [
+        "graduation",
+        "spring",
+        "floral"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "winter_illumination",
+      "category": "event",
+      "name": "Winter Illumination",
+      "name_ja": "冬のイルミネーション",
+      "description_ja": "「冬のイルミネーション」をイメージし、墨色のネイビーと鮮烈なコバルトブルーを基調にした調和した配色。",
+      "tags": [
+        "winter",
+        "holiday",
+        "night"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#172033",
+          "prompt": "deep ink navy"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        }
+      ]
+    },
+    {
+      "id": "strawberry_valentine_duo",
+      "category": "event",
+      "name": "Strawberry Valentine",
+      "name_ja": "いちごのバレンタイン",
+      "description_ja": "いちごのバレンタインをイメージした2色配色。strawberry pinkとwhipped cream whiteを組み合わせたパレット。",
+      "tags": [
+        "valentines",
+        "cute",
+        "sweet"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#FF719F",
+          "prompt": "strawberry pink"
+        },
+        {
+          "hex": "#FFF0EA",
+          "prompt": "whipped cream white"
+        }
+      ]
+    },
+    {
+      "id": "halloween_candy_duo",
+      "category": "event",
+      "name": "Halloween Candy",
+      "name_ja": "ハロウィンキャンディ",
+      "description_ja": "ハロウィンキャンディをイメージした2色配色。pumpkin orangeとwitchy lavender purpleを組み合わせたパレット。",
+      "tags": [
+        "halloween",
+        "cute",
+        "playful"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#F28B23",
+          "prompt": "pumpkin orange"
+        },
+        {
+          "hex": "#A481D7",
+          "prompt": "witchy lavender purple"
+        }
+      ]
+    },
+    {
+      "id": "christmas_mint_red_duo",
+      "category": "event",
+      "name": "Peppermint Christmas",
+      "name_ja": "ペパーミントクリスマス",
+      "description_ja": "ペパーミントクリスマスをイメージした2色配色。holiday redとpeppermint mint greenを組み合わせたパレット。",
+      "tags": [
+        "christmas",
+        "festive",
+        "mint"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#D72E4B",
+          "prompt": "holiday red"
+        },
+        {
+          "hex": "#86D4B4",
+          "prompt": "peppermint mint green"
+        }
+      ]
+    },
+    {
+      "id": "easter_egg_duo",
+      "category": "event",
+      "name": "Easter Egg",
+      "name_ja": "イースターエッグ",
+      "description_ja": "イースターエッグをイメージした2色配色。pastel egg blueとpastel lilacを組み合わせたパレット。",
+      "tags": [
+        "easter",
+        "cute",
+        "pastel"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#B5E7EF",
+          "prompt": "pastel egg blue"
+        },
+        {
+          "hex": "#EAD0F9",
+          "prompt": "pastel lilac"
+        }
+      ]
+    },
+    {
+      "id": "tanabata_duo",
+      "category": "event",
+      "name": "Tanabata Starlight",
+      "name_ja": "七夕の星明かり",
+      "description_ja": "七夕の星明かりをイメージした2色配色。deep celestial blueとstarlight goldを組み合わせたパレット。",
+      "tags": [
+        "tanabata",
+        "stars",
+        "summer"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#253C92",
+          "prompt": "deep celestial blue"
+        },
+        {
+          "hex": "#F9CE61",
+          "prompt": "starlight gold"
+        }
+      ]
+    },
+    {
+      "id": "coquette_ribbons",
+      "category": "fashion",
+      "name": "Coquette Ribbons",
+      "name_ja": "コケットリボン",
+      "description_ja": "「コケットリボン」をイメージし、ベビーピンクとダスティローズを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "coquette",
+        "cute",
+        "pink"
+      ],
+      "order": 10,
+      "colors": [
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#B46D89",
+          "prompt": "dusty rose"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#583A38",
+          "prompt": "chocolate brown"
+        }
+      ]
+    },
+    {
+      "id": "balletcore",
+      "category": "fashion",
+      "name": "Balletcore",
+      "name_ja": "バレエコア",
+      "description_ja": "「バレエコア」をイメージし、ブラッシュピンクとパールホワイトを基調にした柔らかな配色。",
+      "tags": [
+        "fashion",
+        "balletcore",
+        "pastel"
+      ],
+      "order": 20,
+      "colors": [
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#B89D81",
+          "prompt": "milk tea beige"
+        }
+      ]
+    },
+    {
+      "id": "y2k_gloss",
+      "category": "fashion",
+      "name": "Y2K Gloss",
+      "name_ja": "Y2Kグロス",
+      "description_ja": "「Y2Kグロス」をイメージし、銀灰色とバブルガムピンクを基調にした鮮やかな配色。",
+      "tags": [
+        "fashion",
+        "y2k",
+        "metallic",
+        "pop"
+      ],
+      "order": 30,
+      "colors": [
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#8562C7",
+          "prompt": "bright violet"
+        },
+        {
+          "hex": "#C8EBF4",
+          "prompt": "ice blue"
+        }
+      ]
+    },
+    {
+      "id": "cottagecore",
+      "category": "fashion",
+      "name": "Cottagecore",
+      "name_ja": "コテージコア",
+      "description_ja": "「コテージコア」をイメージし、セージグリーンとブラッシュピンクを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "cottagecore",
+        "floral"
+      ],
+      "order": 40,
+      "colors": [
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#F0C0CB",
+          "prompt": "blush pink"
+        },
+        {
+          "hex": "#F6DF8C",
+          "prompt": "butter yellow"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "gorpcore",
+      "category": "fashion",
+      "name": "Gorpcore",
+      "name_ja": "ゴープコア",
+      "description_ja": "「ゴープコア」をイメージし、オリーブグリーンとタンジェリンオレンジを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "outdoor",
+        "sport"
+      ],
+      "order": 50,
+      "colors": [
+        {
+          "hex": "#78855A",
+          "prompt": "olive green"
+        },
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#305A6A",
+          "prompt": "petrol blue"
+        },
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        }
+      ]
+    },
+    {
+      "id": "old_money",
+      "category": "fashion",
+      "name": "Old Money",
+      "name_ja": "オールドマネー",
+      "description_ja": "「オールドマネー」をイメージし、濃紺とエスプレッソブラウンを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "classic",
+        "luxury"
+      ],
+      "order": 60,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        },
+        {
+          "hex": "#F8F3E8",
+          "prompt": "warm ivory"
+        }
+      ]
+    },
+    {
+      "id": "quiet_luxury",
+      "category": "fashion",
+      "name": "Quiet Luxury",
+      "name_ja": "クワイエットラグジュアリー",
+      "description_ja": "「クワイエットラグジュアリー」をイメージし、チャコールグレーと温かなトープを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "minimal",
+        "luxury"
+      ],
+      "order": 70,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#927F79",
+          "prompt": "warm taupe"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "dopamine_dressing",
+      "category": "fashion",
+      "name": "Dopamine Dressing",
+      "name_ja": "ドーパミン配色",
+      "description_ja": "「ドーパミン配色」をイメージし、蛍光フューシャとレモンイエローを基調にした鮮やかな配色。",
+      "tags": [
+        "fashion",
+        "pop",
+        "vibrant"
+      ],
+      "order": 80,
+      "colors": [
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#F28C42",
+          "prompt": "tangerine orange"
+        },
+        {
+          "hex": "#4BA969",
+          "prompt": "fresh grass green"
+        }
+      ]
+    },
+    {
+      "id": "streetwear_primary",
+      "category": "fashion",
+      "name": "Streetwear Pop",
+      "name_ja": "ストリートポップ",
+      "description_ja": "「ストリートポップ」をイメージし、ほぼ黒とスカーレットを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "streetwear",
+        "bold"
+      ],
+      "order": 90,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "denim_casual",
+      "category": "fashion",
+      "name": "Denim Casual",
+      "name_ja": "デニムカジュアル",
+      "description_ja": "「デニムカジュアル」をイメージし、濃紺とくすんだブルーを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "denim",
+        "casual"
+      ],
+      "order": 100,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#8CAFC9",
+          "prompt": "dusty blue"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#74503E",
+          "prompt": "chestnut brown"
+        }
+      ]
+    },
+    {
+      "id": "preppy_school",
+      "category": "fashion",
+      "name": "Modern Preppy",
+      "name_ja": "プレッピースタイル",
+      "description_ja": "「プレッピースタイル」をイメージし、濃紺とワインレッドを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "preppy",
+        "classic"
+      ],
+      "order": 110,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#75263C",
+          "prompt": "burgundy wine red"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#CDA65B",
+          "prompt": "muted gold"
+        }
+      ]
+    },
+    {
+      "id": "sport_luxe",
+      "category": "fashion",
+      "name": "Sport Luxe",
+      "name_ja": "スポーツリュクス",
+      "description_ja": "「スポーツリュクス」をイメージし、チャコールグレーと鮮烈なコバルトブルーを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "sport",
+        "luxury"
+      ],
+      "order": 120,
+      "colors": [
+        {
+          "hex": "#29292B",
+          "prompt": "charcoal gray"
+        },
+        {
+          "hex": "#2458D0",
+          "prompt": "electric cobalt blue"
+        },
+        {
+          "hex": "#CBD3DC",
+          "prompt": "soft silver gray"
+        },
+        {
+          "hex": "#FFF16A",
+          "prompt": "sunny lemon yellow"
+        }
+      ]
+    },
+    {
+      "id": "maritime_chic",
+      "category": "fashion",
+      "name": "Maritime Chic",
+      "name_ja": "マリンシック",
+      "description_ja": "「マリンシック」をイメージし、濃紺とミルキーホワイトを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "nautical",
+        "summer"
+      ],
+      "order": 130,
+      "colors": [
+        {
+          "hex": "#263856",
+          "prompt": "deep navy blue"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        },
+        {
+          "hex": "#ED3241",
+          "prompt": "scarlet red"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "dark_academia",
+      "category": "fashion",
+      "name": "Dark Academia",
+      "name_ja": "ダークアカデミア",
+      "description_ja": "「ダークアカデミア」をイメージし、エスプレッソブラウンとフォレストグリーンを基調にした重厚な配色。",
+      "tags": [
+        "fashion",
+        "academia",
+        "dark"
+      ],
+      "order": 140,
+      "colors": [
+        {
+          "hex": "#4D342B",
+          "prompt": "espresso brown"
+        },
+        {
+          "hex": "#244E40",
+          "prompt": "forest green"
+        },
+        {
+          "hex": "#8E6546",
+          "prompt": "aged bronze"
+        },
+        {
+          "hex": "#E2D8C5",
+          "prompt": "natural linen beige"
+        }
+      ]
+    },
+    {
+      "id": "light_academia",
+      "category": "fashion",
+      "name": "Light Academia",
+      "name_ja": "ライトアカデミア",
+      "description_ja": "「ライトアカデミア」をイメージし、ミルクティーベージュとウォームベージュを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "academia",
+        "light"
+      ],
+      "order": 150,
+      "colors": [
+        {
+          "hex": "#B89D81",
+          "prompt": "milk tea beige"
+        },
+        {
+          "hex": "#DDC7A5",
+          "prompt": "warm beige"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        },
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        }
+      ]
+    },
+    {
+      "id": "fairycore",
+      "category": "fashion",
+      "name": "Fairycore",
+      "name_ja": "フェアリーコア",
+      "description_ja": "「フェアリーコア」をイメージし、セージグリーンと柔らかなライラックを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "fairycore",
+        "fantasy"
+      ],
+      "order": 160,
+      "colors": [
+        {
+          "hex": "#A4BBA3",
+          "prompt": "sage green"
+        },
+        {
+          "hex": "#C3ACE8",
+          "prompt": "soft lilac"
+        },
+        {
+          "hex": "#E8E5E8",
+          "prompt": "pearl white"
+        },
+        {
+          "hex": "#E8C978",
+          "prompt": "pale gold"
+        }
+      ]
+    },
+    {
+      "id": "barbiecore",
+      "category": "fashion",
+      "name": "Barbiecore",
+      "name_ja": "バービーコア",
+      "description_ja": "「バービーコア」をイメージし、蛍光フューシャとバブルガムピンクを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "barbiecore",
+        "pink"
+      ],
+      "order": 170,
+      "colors": [
+        {
+          "hex": "#FF1E91",
+          "prompt": "neon fuchsia pink"
+        },
+        {
+          "hex": "#FF5BA3",
+          "prompt": "bubblegum pink"
+        },
+        {
+          "hex": "#F6D8E4",
+          "prompt": "baby pink"
+        },
+        {
+          "hex": "#FFFCF4",
+          "prompt": "milky white"
+        }
+      ]
+    },
+    {
+      "id": "grunge_fashion",
+      "category": "fashion",
+      "name": "Grunge Fashion",
+      "name_ja": "グランジ",
+      "description_ja": "「グランジ」をイメージし、ほぼ黒とダークオリーブを基調にした重厚な配色。",
+      "tags": [
+        "fashion",
+        "grunge",
+        "dark"
+      ],
+      "order": 180,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#414A36",
+          "prompt": "dark olive green"
+        },
+        {
+          "hex": "#AA583E",
+          "prompt": "burnt rust orange"
+        },
+        {
+          "hex": "#46525C",
+          "prompt": "slate gray"
+        }
+      ]
+    },
+    {
+      "id": "techwear_neon",
+      "category": "fashion",
+      "name": "Techwear Neon",
+      "name_ja": "ネオンテックウェア",
+      "description_ja": "「ネオンテックウェア」をイメージし、ほぼ黒とスレートグレーを基調にした調和した配色。",
+      "tags": [
+        "fashion",
+        "techwear",
+        "cyberpunk"
+      ],
+      "order": 190,
+      "colors": [
+        {
+          "hex": "#121116",
+          "prompt": "near black"
+        },
+        {
+          "hex": "#46525C",
+          "prompt": "slate gray"
+        },
+        {
+          "hex": "#20D6DD",
+          "prompt": "electric cyan"
+        },
+        {
+          "hex": "#A2ED54",
+          "prompt": "neon acid green"
+        }
+      ]
+    },
+    {
+      "id": "soft_girl",
+      "category": "fashion",
+      "name": "Soft Girl Style",
+      "name_ja": "ソフトガール",
+      "description_ja": "「ソフトガール」をイメージし、いちごミルク色と淡いラベンダーを基調にした柔らかな配色。",
+      "tags": [
+        "fashion",
+        "softgirl",
+        "cute"
+      ],
+      "order": 200,
+      "colors": [
+        {
+          "hex": "#F293A7",
+          "prompt": "strawberry milk pink"
+        },
+        {
+          "hex": "#DDD4F0",
+          "prompt": "pale lavender"
+        },
+        {
+          "hex": "#BAEED7",
+          "prompt": "pastel mint green"
+        },
+        {
+          "hex": "#F6E9D5",
+          "prompt": "soft cream"
+        }
+      ]
+    },
+    {
+      "id": "coquette_duo",
+      "category": "fashion",
+      "name": "Coquette Ribbons",
+      "name_ja": "コケットリボン",
+      "description_ja": "コケットリボンをイメージした2色配色。coquette blush pinkとmuted wine redを組み合わせたパレット。",
+      "tags": [
+        "coquette",
+        "romantic",
+        "fashion"
+      ],
+      "order": 210,
+      "colors": [
+        {
+          "hex": "#E7A9C3",
+          "prompt": "coquette blush pink"
+        },
+        {
+          "hex": "#6D3E57",
+          "prompt": "muted wine red"
+        }
+      ]
+    },
+    {
+      "id": "ballet_slippers_duo",
+      "category": "fashion",
+      "name": "Ballet Slippers",
+      "name_ja": "バレエシューズ",
+      "description_ja": "バレエシューズをイメージした2色配色。ballet blush pinkとsatin ivoryを組み合わせたパレット。",
+      "tags": [
+        "balletcore",
+        "soft",
+        "elegant"
+      ],
+      "order": 220,
+      "colors": [
+        {
+          "hex": "#E5C2C7",
+          "prompt": "ballet blush pink"
+        },
+        {
+          "hex": "#E6DDD3",
+          "prompt": "satin ivory"
+        }
+      ]
+    },
+    {
+      "id": "pop_street_duo",
+      "category": "fashion",
+      "name": "Pop Street",
+      "name_ja": "ポップストリート",
+      "description_ja": "ポップストリートをイメージした2色配色。electric pinkとbright cyanを組み合わせたパレット。",
+      "tags": [
+        "streetwear",
+        "pop",
+        "y2k"
+      ],
+      "order": 230,
+      "colors": [
+        {
+          "hex": "#ED42B3",
+          "prompt": "electric pink"
+        },
+        {
+          "hex": "#42D8F0",
+          "prompt": "bright cyan"
+        }
+      ]
+    },
+    {
+      "id": "dark_academia_duo",
+      "category": "fashion",
+      "name": "Dark Academia Duo",
+      "name_ja": "ダークアカデミア2色",
+      "description_ja": "ダークアカデミア2色をイメージした2色配色。charcoal brownとantique parchment goldを組み合わせたパレット。",
+      "tags": [
+        "dark",
+        "academia",
+        "classic"
+      ],
+      "order": 240,
+      "colors": [
+        {
+          "hex": "#3A3936",
+          "prompt": "charcoal brown"
+        },
+        {
+          "hex": "#C4AB7E",
+          "prompt": "antique parchment gold"
+        }
+      ]
+    },
+    {
+      "id": "denim_lemon_duo",
+      "category": "fashion",
+      "name": "Denim & Lemon",
+      "name_ja": "デニムとレモン",
+      "description_ja": "デニムとレモンをイメージした2色配色。denim blueとbutter yellowを組み合わせたパレット。",
+      "tags": [
+        "casual",
+        "denim",
+        "fresh"
+      ],
+      "order": 250,
+      "colors": [
+        {
+          "hex": "#315C9E",
+          "prompt": "denim blue"
+        },
+        {
+          "hex": "#F8DE5A",
+          "prompt": "butter yellow"
+        }
+      ]
+    },
+    {
+      "id": "retro_mod_duo",
+      "category": "fashion",
+      "name": "Retro Mod",
+      "name_ja": "レトロモッズ",
+      "description_ja": "レトロモッズをイメージした2色配色。burnt orangeとretro charcoalを組み合わせたパレット。",
+      "tags": [
+        "retro",
+        "fashion",
+        "minimal"
+      ],
+      "order": 260,
+      "colors": [
+        {
+          "hex": "#F05D40",
+          "prompt": "burnt orange"
+        },
+        {
+          "hex": "#4A4A44",
+          "prompt": "retro charcoal"
+        }
+      ]
+    }
+  ]
+}
